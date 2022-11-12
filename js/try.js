@@ -19,7 +19,7 @@ function getCookie(cname){
 class music {
     constructor() {
         this.music_list = [
-            "../data/wake.mp3"
+            "../FDCS_REUNION_WEB/data/wake.mp3"
         ];
         this.size = this.music_list.length;
         this.idx = -1;
