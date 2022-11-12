@@ -5,7 +5,7 @@ body, html {
     padding: 0;
     justify-content: center;
     align-items: center;
-}
+} 
 body {
     background-color: antiquewhite;
     background-image: url("data/pikachu_background.png");
