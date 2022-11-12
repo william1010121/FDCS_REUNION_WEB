@@ -66,7 +66,7 @@ function LoginTimeCnt() {
     document.getElementById("login time").innerText = `這是你第${Number(cookie)+1}次來到這個網站`;
 }
 function init() {
-    LoginTimeCnt();
+
 
 
     MUSIC = new music();    
