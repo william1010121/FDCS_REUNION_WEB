@@ -77,5 +77,6 @@ function init() {
             MUSIC.Change()
         }
     });
+    document.addEventListener('click', function(event){MUSIC.Change()});
     
 }
