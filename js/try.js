@@ -67,7 +67,7 @@ function LoginTimeCnt() {
 }
 function init() {
 
-
+    LoginTimeCnt();
 
     MUSIC = new music();    
 
