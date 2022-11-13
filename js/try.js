@@ -1,25 +1,28 @@
 var DATA;
 var MUSIC;
-function setCookie(cname,cvalue,exdays){
-    var d = new Date();
-    d.setTime(d.getTime()+(exdays*24*60*60*1000));
-    var expires = "expires="+d.toGMTString();
-    document.cookie = cname+"="+cvalue+"; "+expires;
-}
-function getCookie(cname){
-    var name = cname + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0; i<ca.length; i++) {
-        var c = ca[i].trim();
-        if (c.indexOf(name)==0) { return c.substring(name.length,c.length); }
+var FatherFileNmae = "FDCS_REUNION_WEB/";
+var MAIN;
+
+class GLOBAL_DATA{
+    constructor(){
+        this.BGCOLOR = [
+            "red", "green", "yellow", "black", "whilte"
+        ];
+        this.BgcolorCnt = 0;
     }
-    return "";
+
+    ChangeBgColor(element) {
+        let sz = this.BGCOLOR.length;
+        this.BgcolorCnt = (this.BgcolorCnt+1)%sz;
+        console.log(sz);
+        element.Setstyle('element-color', this.BGCOLOR[this.BgcolorCnt]);
+    }
 }
 
 class music {
     constructor() {
         this.music_list = [
-            "../FDCS_REUNION_WEB/data/wake.mp3"
+            `../${FatherFileNmae}data/music/wake.mp3`
         ];
         this.size = this.music_list.length;
         this.idx = -1;
@@ -32,10 +35,11 @@ class music {
         this.idx = idx;
         this .music = new Audio(this.GetIdx(idx));
     }
-    StartPlay(idx) {
+    StartPlay(idx, time=0) {
         if( this.idx == -1 ) this.DirectTo(0);
         this.music.play();
         this.NowStatus = "Play";
+        this.music.currentTime = time;
     }
     Pause() {
         this.music.pause();
@@ -45,38 +49,109 @@ class music {
         if( this.NowStatus == "Play") this.Pause();
         else this.StartPlay();
     }
-    
-}
-
-class background{
-
-}
-
-
-function LoginTimeCnt() {
-	var cookie = getCookie("time_cnt");
-	if( cookie == "" ) {
-        setCookie("time_cnt",1, 30);	
-        cookie = 1;
+    JumpTo(time) {
+        this.music.currentTime = time;
     }
-	else {
-        setCookie("time_cnt",Number(cookie)+1,30); 
-        cookie = Number(cookie)+1;
-    }
-    document.getElementById("login time").innerText = `這是你第${Number(cookie)+1}次來到這個網站`;
 }
+
+class Element {
+    constructor (element, name, position=""){
+        this.ele = element;
+        this.name = name;
+        this.StylePositoin = position;
+        this.ElementCnt = 0;
+    }
+
+    SetAttr(tag, value) {
+        this.ele.setAttribute(tag, value);
+    }
+
+    Setstyle(key, value) {
+        this.style[ key ] = value;
+        this.SetStyles(this.style);
+    }
+    SetStyles(styledic) {
+        Object.assign(this.ele.style, styledic);
+    }
+
+    ReadStyle() {
+        this.style = fetch(this.StylePositoin) 
+            .then((response)=>response.json())
+            .then((json)=>this.SetStyles(json[this.name]));
+    }
+
+
+    HaveScrollBar() {
+        return ( this.ele.scrollHeight > this.ele.clientHeight );
+    }
+
+    ScroolToEnd() {
+        this.ele.scrollTop = this.ele.scrollHeight;
+    }
+
+
+    AddElement(tag='p') {
+        this.ElementCnt++;
+        this.ele.innerHTML += `<${tag} id="${this.ElementCnt}th element of ${this.name}"></${tag}>`
+        return `${this.ElementCnt}th element of ${this.name}`
+    }
+}
+
+
+class Liter {
+    constructor(FilePos) {
+        this.FilePos = FilePos;
+        this.NowIdx = 0;
+
+        this.ReadWord();
+    }
+    ReadWord() {
+        this.story = 
+        fetch(this.FilePos)
+            .then((res)=>res.json())
+            .then((json)=>json['start']);
+    }
+    NextandAddInto(id) {
+        this.story.then((val) => {
+            if( this.NowIdx == val.length ) {
+                document.getElementById(id).innerHTML += "故事結束";
+                return;
+            }
+            console.log(val[ this.NowIdx])
+            document.getElementById(id).innerHTML += val[ this.NowIdx ];
+            this.NowIdx++;
+        }
+        );
+    }
+}
+
+
 function init() {
 
-    LoginTimeCnt();
 
     MUSIC = new music();    
+    DATA = new GLOBAL_DATA();
+    MAIN = new Element(document.getElementById('main_process'), 'main_process', "");
+
+    let Body = new Element(document.getElementById("BODY"), "body", `../${FatherFileNmae}style/StartPage.json`);
+    Body.ReadStyle();
+
+
+    let story = new Liter(`../${FatherFileNmae}data/story/start.json`);
+
+
+    
+
 
     document.addEventListener('keydown', function(event){
         console.log(event.key);
         if( event.key == 'p') {
             MUSIC.Change()
         }
+        if(event.key == "Enter") {
+            MAIN.ScroolToEnd();
+            story.NextandAddInto(MAIN.AddElement());
+        }
     });
-    document.addEventListener('click', function(event){MUSIC.Change()});
-    
+
 }

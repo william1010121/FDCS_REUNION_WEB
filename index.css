@@ -1,20 +1,54 @@
-body, html {
+body {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
     align-items: center;
 }
-body {
-    background-color: antiquewhite;
-    background-image: url("data/pikachu_background.png");
-    background-size: 1000px 1000px;
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-attachment: fixed;
+#info {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin: 2em;
 }
 
+#main_process {
+    border:3px outset rgba(255, 255, 255, 0.419);
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(5px);
+    border-radius: 3%;
+
+
+    width: 70vw;
+    height: 80vh;
+    font-size: 30px;
+    /*
+        毛玻璃特效
+    */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+/* https://www.freecodecamp.org/news/css-scrollbar-tutorial */
+#main_process::-webkit-scrollbar {
+    width: 10px;
+}
+
+#main_process::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
+}
+
+
+
+#main_process *{
+    margin: 20px;
+    border-bottom: 5px gray dashed;
+    overflow-wrap: break-word;
+}
+.bold {
+    font-weight: bolder;
+}
 /* flex: 
-    https://nicolakacha.coderbridge.io/2020/09/20/css-flex-grid-1/#:~:text=flex%20%E5%AD%90%E5%85%83%E7%B4%A0%E9%A0%90%E8%A8%AD%E6%9C%83%E5%A1%AB%E6%BB%BF%E4%B8%BB%E8%BB%B8%E7%9A%84%E5%AF%AC%E5%BA%A6%EF%BC%8C%E8%80%8C%E4%B8%8D%E6%9C%83%E8%87%AA%E5%8B%95%E6%8F%9B%E8%A1%8C%EF%BC%8C%E5%A6%82%E6%9E%9C%E7%82%BA%E6%AF%8F%E5%80%8B%E5%AD%90%E5%85%83%E7%B4%A0%E8%A8%AD%E5%AE%9A%E5%90%8C%E6%A8%A3%E7%9A%84%E5%AF%AC%E5%BA%A6%EF%BC%8C%E5%AD%90%E5%85%83%E7%B4%A0%E6%9C%83%E5%98%97%E8%A9%A6%E7%9C%8B%E7%9C%8B%E8%83%BD%E4%B8%8D%E8%83%BD%E5%81%9A%E5%88%B0%E8%A8%AD%E5%AE%9A%E7%9A%84%E5%AF%AC%E5%BA%A6%EF%BC%8C%E8%8B%A5%E4%B8%8D%E8%83%BD%EF%BC%8C%E5%B0%B1%E6%9C%83%E4%B8%8D%E7%AE%A1%E6%88%91%E5%80%91%E8%A8%AD%E5%AE%9A%E7%9A%84%E5%AF%AC%E5%BA%A6%E8%80%8C%E7%B9%BC%E7%BA%8C%E7%95%99%E5%9C%A8%E5%90%8C%E4%B8%80%E8%A1%8C%E4%B8%8A%EF%BC%8C%E9%80%99%E6%98%AF%E5%9B%A0%E7%82%BA%20flex%20%E5%AE%B9%E5%99%A8%E9%A0%90%E8%A8%AD%E7%9A%84,flex-wrap%20%E5%B1%AC%E6%80%A7%E6%98%AF%20nowrap%EF%BC%8C%E5%A6%82%E6%9E%9C%E6%94%B9%E8%A8%AD%E5%AE%9A%E6%88%90%20wrap%EF%BC%8C%E5%B0%B1%E6%9C%83%E5%BE%80%E4%B8%8B%E6%8F%9B%E8%A1%8C%E3%80%82 
+    https://nicolakacha.coderbridge.io/2020/09/20/css-flex-grid-1/
 */
