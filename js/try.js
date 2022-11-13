@@ -1,6 +1,7 @@
 var DATA;
 var MUSIC;
 var FatherFileNmae = "FDCS_REUNION_WEB/";
+// var FatherFileNmae = "";
 var MAIN;
 
 class GLOBAL_DATA{
@@ -60,6 +61,7 @@ class Element {
         this.name = name;
         this.StylePositoin = position;
         this.ElementCnt = 0;
+        this.PrevEle = "none";
     }
 
     SetAttr(tag, value) {
@@ -93,15 +95,34 @@ class Element {
     AddElement(tag='p') {
         this.ElementCnt++;
         this.ele.innerHTML += `<${tag} id="${this.ElementCnt}th element of ${this.name}"></${tag}>`
-        return `${this.ElementCnt}th element of ${this.name}`
+        this.PrevEle =  `${this.ElementCnt}th element of ${this.name}`;
+        return `${this.ElementCnt}th element of ${this.name}`;
+    }
+
+    EndString(st='故事結束') {
+        const ele = document.getElementById(this.PrevEle);
+        if( ele == null ) return false;
+        // console.log(ele.innerText);
+        if( ele.innerText == st ) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    CleanElement() {
+        this.ele.innerHTML = "";
     }
 }
 
 
 class Liter {
-    constructor(FilePos) {
+    constructor(FilePos, IthArt=0) {
         this.FilePos = FilePos;
         this.NowIdx = 0;
+        this.IthArt = IthArt;
+        this.OriginName = "article";
 
         this.ReadWord();
     }
@@ -109,10 +130,16 @@ class Liter {
         this.story = 
         fetch(this.FilePos)
             .then((res)=>res.json())
-            .then((json)=>json['start']);
+            .then((json)=>{
+                // console.log(this.OriginName+this.IthArt)
+                this.IthArt++;
+                return json[this.OriginName+this.IthArt]
+            });
+        this.NowIdx = 0;
     }
     NextandAddInto(id) {
         this.story.then((val) => {
+            // console.log(val);
             if( this.NowIdx == val.length ) {
                 document.getElementById(id).innerHTML += "故事結束";
                 return;
@@ -144,12 +171,16 @@ function init() {
 
 
     document.addEventListener('keydown', function(event){
-        console.log(event.key);
+        // console.log(event.key);
         if( event.key == 'p') {
             MUSIC.Change()
         }
         if(event.key == "Enter") {
             MAIN.ScroolToEnd();
+            // console.log(MAIN.EndString());
+            if( MAIN.EndString() ) {
+                story.ReadWord();
+            }
             story.NextandAddInto(MAIN.AddElement());
         }
     });
