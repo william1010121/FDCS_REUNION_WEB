@@ -43,7 +43,7 @@ body {
 
 #main_process *{
     margin: 20px;
-    border-bottom: 5px gray dashed;
+    border-bottom: 5px gray solid;
     overflow-wrap: break-word;
 }
 .bold {
