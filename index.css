@@ -3,13 +3,40 @@ body {
     flex-direction: column;
     align-items: center;
 }
-body {
-    background-color: antiquewhite;
-    background-image: url("data/pikachu_background.png");
-    background-size: 1000px 1000px;
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-attachment: fixed;
+#info {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin: 2em;
+}
+
+#main_process {
+    border:3px outset rgba(255, 255, 255, 0.419);
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(5px);
+    border-radius: 3%;
+
+
+    width: 70vw;
+    height: 80vh;
+    font-size: 30px;
+    /*
+        毛玻璃特效
+    */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+/* https://www.freecodecamp.org/news/css-scrollbar-tutorial */
+#main_process::-webkit-scrollbar {
+    width: 10px;
+}
+
+#main_process::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
 }
 
 
