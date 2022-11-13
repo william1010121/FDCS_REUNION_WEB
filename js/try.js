@@ -1,7 +1,7 @@
 var DATA;
 var MUSIC;
-// var FatherFileNmae = "FDCS_REUNION_WEB/";
-var FatherFileNmae = "";
+var FatherFileNmae = "FDCS_REUNION_WEB/";
+// var FatherFileNmae = "";
 var MAIN;
 
 class GLOBAL_DATA{
