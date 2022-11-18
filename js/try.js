@@ -1,8 +1,8 @@
 var Body;
 var DATA;
 var MUSIC;
-var FatherFileNmae = "FDCS_REUNION_WEB/";
-// var FatherFileNmae = "";
+// var FatherFileNmae = "FDCS_REUNION_WEB/";
+var FatherFileNmae = "";
 var MAIN;
 var Cookie;
 var Decide;
@@ -755,7 +755,7 @@ class Liter {
 
 
 function init() {
-
+    document.location = "https://william1010121.github.io/FDCS_REUNION_WEB/StartPage/StartPage.html";
     MUSIC = new music();    
     DATA = new GLOBAL_DATA();
     MAIN = new Element(document.getElementById('main_process'), 'main_process', "");
