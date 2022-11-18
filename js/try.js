@@ -755,6 +755,7 @@ class Liter {
 
 
 function init() {
+    Cookie = new cookie();
     if( Cookie.getCookie('login') == true) {
         Cookie.setCookie("login", false);
     }
@@ -768,7 +769,6 @@ function init() {
     MUSIC = new music();    
     DATA = new GLOBAL_DATA();
     MAIN = new Element(document.getElementById('main_process'), 'main_process', "");
-    Cookie = new cookie();
     Decide = new ChoseButton();
 
     Body = new Element(document.getElementById("BODY"), "body", `../${FatherFileNmae}style/MAINstyle.json`);
