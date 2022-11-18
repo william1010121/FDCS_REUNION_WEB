@@ -42,7 +42,7 @@
         "question" : {
             "content":"只要你能幫我解出這個神奇的亂碼有什麼意義 我就幫你",
             "url" : [
-                "../q5/page.html"
+                "https://william1010121.github.io/FDCS_REUNION_WEB/q5/page.html"
             ]
         },
         "answer" : "2147497335"
