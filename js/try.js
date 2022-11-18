@@ -756,6 +756,7 @@ class Liter {
 
 function init() {
     Cookie = new cookie();
+    alert(Cookie.getCookie('login'));
     if( Cookie.getCookie('login') == true) {
         Cookie.setCookie("login", false);
     }
