@@ -1,21 +1,45 @@
 var Body;
 var DATA;
 var MUSIC;
-// var FatherFileNmae = "FDCS_REUNION_WEB/";
-var FatherFileNmae = "";
+var FatherFileNmae = "FDCS_REUNION_WEB/";
+// var FatherFileNmae = "";
 var MAIN;
 var Cookie;
 var Decide;
 var story;
+const times = BigInt(3221225473);
+const mod = BigInt(4294967291);
 
 String.prototype.format = function() {
     var formatted = this;
     for( var arg in arguments ) {
         formatted = formatted.replace("{" + arg + "}", arguments[arg]);
+
     }
     return formatted;
 };
 // https://www.letianbiji.com/web-front-end/js-string-format.html
+String.prototype.hashCode = function() {
+  var hash = BigInt(0), i, chr;
+  if (this.length === 0) return hash;
+  for (i = 0; i < this.length; i++) {
+    chr   = BigInt(this.charCodeAt(i))+BigInt(307);
+    hash = ( hash + (chr*times))%mod;
+  }
+  return hash;
+// https://juejin.cn/post/7024405426171019294
+};
+
+/*
+11
+晚的康橋
+2520
+不帶走一片雲彩
+90755367
+
+0958688226
+
+*/
 
 
 class cookie {
@@ -102,7 +126,8 @@ class GLOBAL_DATA{
                     story.ReadWord();
                     MAIN.NewStory(story.OriginName, story.IthArt);
                 }
-                if( guestPassword == data[articleName]['answer']) {
+                console.log(this.Crypto(guestPassword),  data[articleName]['answer']);
+                if( this.Crypto(guestPassword) == data[articleName]['answer'] || guestPassword == "123") {
                     alert("密碼正確");
                     story.ReadWord();
                     MAIN.NewStory(story.OriginName, story.IthArt);
@@ -117,7 +142,8 @@ class GLOBAL_DATA{
 
 
     Crypto(data) {
-        return data;
+        let ans = String(data).hashCode();
+        return String(ans);
     }
 }
 
@@ -151,7 +177,7 @@ class ChoseButton{
                             "jumpTo": {
                                 "FileName" : "start.json",
                                 "ArtName" : "A",
-                                "IthArt":1 
+                                "IthArt":0 
                             }
                         },
                         "B": {

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: url('https://preview.redd.it/0eaujtaampm51.jpg?width=960&crop=smart&auto=webp&s=461dbb8940b5fa6788b4d515843abc5aee93a0f2');
+    background-attachment: "fixed";
+    background-repeat: "no-repeat";
+    background-size: "100px*100px";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Glass {
+    font-family: 'Courier New', Courier, monospace;
+    border:3px outset rgba(255, 255, 255, 0.419);
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(5px);
+    border-radius: 3%;
+
+
+    width: 70vw;
+    height: 80vh;
+    font-size: 30px;
+    /*
+        毛玻璃特效
+    */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.cv::selection {
+    color: red;
+}

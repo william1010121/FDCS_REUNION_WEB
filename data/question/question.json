@@ -1,42 +1,41 @@
 {
     "article1" :  {
         "question" : {
-            "content":"謎題謎題",
+            "content":"吊床下面好像有什麼，徐志摩最少要剪幾刀才能讓吊床分成左右兩邊",
             "url" : [
-                "https://drive.google.com/file/d/1zTzkDPIZkkJLuaLL4QM16-YVHsCWK36s/view"
+                "https://drive.google.com/file/d/1JEziwFDNVCbCTMwtHRU-evfed6ZXMCvK/view"
             ]
         },
-        "answer" : "123"
+        "answer" : "3382"
         
     },
     "article2" :  {
         "question" : {
-            "content":"謎題謎題",
+            "content":"請解謎獲得翻譯蒟蒻",
             "url" : [
-                "https://www.google.com/"
+                "https://drive.google.com/file/d/1zTzkDPIZkkJLuaLL4QM16-YVHsCWK36s/view"
             ]
         },
-        "answer" : "123"
+        "answer" : "518833"
         
     },
     "article3" :  {
         "question" : {
-            "content":"謎題謎題",
+            "content":"謎題謎題有一種奇妙的正整數，當它加上2，可以被2整除；當它加上3，可以被3整除；\n...(中間省略以此類推)...當它加上9，可以被9整除。",
             "url" : [
-                "https://www.google.com/"
             ]
         },
-        "answer" : "123"
+        "answer" : "3221232256"
         
     },
     "article4" :  {
         "question" : {
-            "content":"謎題謎題",
+            "content":"這首詩詞的下一句是甚麼",
             "url" : [
-                "https://www.google.com/"
+                "https://drive.google.com/file/d/1d6Jn150Z2XVWQEtn4iXr0HfdPPJpDcLJ/view"
             ]
         },
-        "answer" : "123"
+        "answer" : "2148408689"
         
     },
     "article5" :  {
@@ -46,7 +45,7 @@
                 "https://www.google.com/"
             ]
         },
-        "answer" : "123"
+        "answer" : "2147497335"
         
     },
     "article6" :  {
@@ -66,7 +65,7 @@
                 "https://www.google.com/"
             ]
         },
-        "answer" : "123"
+        "answer" : "17119"
         
     },
     "article8" :  {
@@ -99,6 +98,15 @@
         "answer" : "123"
         
     },
+    "A0" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "442624"
+    },
     "A1" : {
         "question" : {
             "content":"謎題謎題",
@@ -106,7 +114,7 @@
                 "https://www.google.com/"
             ]
         },
-        "answer" : "123"
+        "answer" : "442624"
     },
     "A2" : {
         "question" : {
@@ -115,7 +123,7 @@
                 "https://www.google.com/"
             ]
         },
-        "answer" : "123"
+        "answer" : "1073748829"
     },
     "A3" : {
         "question" : {
