@@ -81,7 +81,7 @@ class GLOBAL_DATA{
             "red", "green", "yellow", "black", "whilte"
         ];
         this.BgcolorCnt = 0;
-        this.EndString = "謎題開始";
+        this.EndString = "--";
         this.QuestoinPos = `../${FatherFileNmae}data/question/`;  
         this.QuestoinName = "question.json";  
 
@@ -185,7 +185,7 @@ class ChoseButton{
                             "jumpTo": {
                                 "FileName" : "start.json",
                                 "ArtName" : "B",
-                                "IthArt":1 
+                                "IthArt":2 
                             }
                         },
                     }
@@ -753,7 +753,7 @@ function init() {
     
 
     //debug
-    story.DirectTo("start.json", "article", 5);
+    // story.DirectTo("start.json", "article", 5);
     //
 
     document.addEventListener('keydown', function(event){
