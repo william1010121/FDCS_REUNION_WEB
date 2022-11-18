@@ -208,10 +208,66 @@ class ChoseButton{
                         }
                     }
                 },
+                "B" : {
+                    7: {
+                        "A": {
+                            "content": "女強人的張幼儀",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBA",
+                                "IthArt":1 
+                            }
+                        },
+                        "B": {
+                            "content": "共患難的林徽因",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBB",
+                                "IthArt":1 
+                            }
+                        },
+                        "C": {
+                            "content": "背叛過的陸小曼",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBC",
+                                "IthArt":1 
+                            }
+                        },
+                        "D": {
+                            "content": "變殭屍的哥倫布",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBD",
+                                "IthArt":1 
+                            }
+                        },
+                        "E": {
+                            "content": "小孩子才做選擇 我都要!!",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBE",
+                                "IthArt":1 
+                            }
+                        }
+                    }
+                },
                 "outlineA": {
                     1:{
                         "A": {
-                            "content": "時光倒流",
+                            "content": "繼續",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "article",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+                },
+                "outlineB": {
+                    1:{
+                        "A": {
+                            "content": "繼續",
                             "jumpTo": {
                                 "FileName" : "start.json",
                                 "ArtName" : "article",
@@ -279,6 +335,70 @@ class ChoseButton{
                                 "FileName" : "start.json",
                                 "ArtName" : "A",
                                 "IthArt":6 
+                            }
+                        }
+                    }
+
+                },
+                "finalBA" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+                },
+                "finalBB" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+
+                },
+                "finalBC" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+
+                },
+                "finalBD" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+
+                },
+                "finalBE" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
                             }
                         }
                     }
