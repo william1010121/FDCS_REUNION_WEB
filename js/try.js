@@ -1,8 +1,8 @@
 var Body;
 var DATA;
 var MUSIC;
-var FatherFileNmae = "FDCS_REUNION_WEB/";
-// var FatherFileNmae = "";
+// var FatherFileNmae = "FDCS_REUNION_WEB/";
+var FatherFileNmae = "";
 var MAIN;
 var Cookie;
 var Decide;
@@ -88,7 +88,7 @@ class GLOBAL_DATA{
             (data)=>{
                 for( const url of data[articleName]['question']['url']) {
                     console.log(url);
-                    // window.open(url, `web ${this.WebCnt++}`);
+                    window.open(url, `web ${this.WebCnt++}`);
                 }
                 MAIN.AddElement('p', data[articleName]['question']['content']);
             }
@@ -684,7 +684,7 @@ class Liter {
         try {
             data = this.SpecialArticleTrans[this.FileName][this.OriginName][this.IthArt];
         }
-        catch {
+        finally {
             console.log("Liter_SpecialArticle: data doesn't exit");
             return;
         }
