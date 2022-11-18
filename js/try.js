@@ -1,8 +1,8 @@
 var Body;
 var DATA;
 var MUSIC;
-// var FatherFileNmae = "FDCS_REUNION_WEB/";
-var FatherFileNmae = "";
+var FatherFileNmae = "FDCS_REUNION_WEB/";
+// var FatherFileNmae = "";
 var MAIN;
 var Cookie;
 var Decide;
