@@ -5,10 +5,22 @@ body {
 }
 #info {
     display: flex;
+    flex-wrap: wrap;
     width: 100vw;
     flex-direction: row;
     justify-content: space-around; 
+    align-items:stretch;
     margin: 2em;
+}
+
+#info > div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around; 
+    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+    font-size: large;
 }
 
 #main_process {

@@ -30,17 +30,6 @@ String.prototype.hashCode = function() {
 // https://juejin.cn/post/7024405426171019294
 };
 
-/*
-11
-晚的康橋
-2520
-不帶走一片雲彩
-90755367
-
-0958688226
-
-*/
-
 
 class cookie {
     setCookie(cname, cvalue, exdays) {
@@ -71,7 +60,7 @@ class cookie {
             this.setCookie("time_cnt", Number(cookie) + 1, 30);
             cookieval = Number(cookieval) + 1;
         }
-        document.getElementById("login time").innerText = "\u9019\u662F\u4F60\u7B2C".concat(Number(cookieval) + 1, "\u6B21\u4F86\u5230\u9019\u500B\u7DB2\u7AD9");
+        document.getElementById("login time").innerText = "\u7B2C".concat(Number(cookieval) + 1, "\u6B21\u9019\u500B\u7DB2\u7AD9");
     }
 }
 
@@ -511,7 +500,9 @@ class ChoseButton{
 class music {
     constructor() {
         this.music_list = [
-            `../${FatherFileNmae}data/music/wake.mp3`
+            `../${FatherFileNmae}data/music/wake.mp3`,
+            `../${FatherFileNmae}data/music/towa1.mp3`,
+            `../${FatherFileNmae}data/music/towa2.mp3`,
         ];
         this.size = this.music_list.length;
         this.idx = -1;
@@ -526,6 +517,7 @@ class music {
     }
     StartPlay(idx, time=0) {
         if( this.idx == -1 ) this.DirectTo(0);
+        else this.DirectTo(idx);
         this.music.play();
         this.NowStatus = "Play";
         this.music.currentTime = time;
@@ -534,12 +526,41 @@ class music {
         this.music.pause();
         this.NowStatus = "Pause";
     }
+    Play() {
+        this.music.play();
+        this.NowStatus = "Play";
+    }
     Change() {
+        if( this.idx == -1)  this.DirectTo(0);
         if( this.NowStatus == "Play") this.Pause();
-        else this.StartPlay();
+        else this.Play();
     }
     JumpTo(time) {
         this.music.currentTime = time;
+    }
+    Circle() {
+        setInterval(
+            ()=>{
+                if( this .music.ended ) {
+                    this.idx = (this.idx + 1 ) % this.music_list.length;
+
+                    console.log(this.idx);
+                    this.StartPlay(this.idx);
+
+                }
+                // console.log(this.music.currentTime, this.idx);
+            },1000
+        )
+    }
+    Next() {
+        this.idx = (this.idx + 1 ) % this.music_list.length;
+        this.Pause();
+        this.StartPlay(this.idx);
+    }
+    Prev() {
+        this.idx = (this.idx - 1 + this.music_list.length) % this.music_list.length;
+        this.Pause();
+        this.StartPlay(this.idx);
     }
 }
 
@@ -755,6 +776,8 @@ function init() {
     //debug
     // story.DirectTo("start.json", "article", 5);
     //
+    MUSIC.DirectTo(0);
+    MUSIC.Circle();
 
     document.addEventListener('keydown', function(event){
         console.log("MAIN Status:", MAIN.Status);
@@ -805,6 +828,17 @@ function init() {
             //     alert("密碼不正確");
             // }
         }
+
+        if( event.key == 'p' ) {
+            MUSIC.Change();
+        }
+        if( event.key == 'k') {
+            MUSIC.Next();
+        }
+        if( event.key == 'j') {
+            MUSIC.Prev();
+        }
+        
         setTimeout(()=>MAIN.ScroolToEnd(), 20);
     });
 }
