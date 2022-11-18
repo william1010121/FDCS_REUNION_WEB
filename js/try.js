@@ -1,9 +1,20 @@
 var DATA;
 var MUSIC;
-// var FatherFileNmae = "FDCS_REUNION_WEB/";
-var FatherFileNmae = "";
+var FatherFileNmae = "FDCS_REUNION_WEB/";
+// var FatherFileNmae = "";
 var MAIN;
 var Cookie;
+var Decide;
+var story;
+
+String.prototype.format = function() {
+    var formatted = this;
+    for( var arg in arguments ) {
+        formatted = formatted.replace("{" + arg + "}", arguments[arg]);
+    }
+    return formatted;
+};
+// https://www.letianbiji.com/web-front-end/js-string-format.html
 
 
 class cookie {
@@ -46,6 +57,12 @@ class GLOBAL_DATA{
         ];
         this.BgcolorCnt = 0;
         this.EndString = "謎題開始";
+        this.QuestoinPos = "../data/question/";  
+        this.QuestoinName = "question.json";  
+
+        this.WebCnt = 0;
+
+        this.ReadQuestion();
     }
 
     ChangeBgColor(element) {
@@ -55,9 +72,146 @@ class GLOBAL_DATA{
         element.Setstyle('element-color', this.BGCOLOR[this.BgcolorCnt]);
     }
 
-    Encropy(value) {
-        return value;
+    ReadQuestion() {
+        this.Question = 
+            fetch(this.QuestoinPos+this.QuestoinName)
+                .then((res)=>res.json())
+                .then(
+                    (d)=>{
+                        return d;
+                    }
+                );
     }
+    OpenQuestion(articleName) {
+        this.Question.then(
+            (data)=>{
+                for( const url of data[articleName]['question']['url']) {
+                    console.log(url);
+                    window.open(url, `web ${this.WebCnt++}`);
+                }
+                MAIN.AddElement('p', data[articleName]['question']['content']);
+            }
+        );
+    }
+
+    CheckPassword(articleName, guestPassword)  {
+        this.Question.then(
+            (data)=>{
+                if( guestPassword == data[articleName]['answer']) {
+                    alert("密碼正確");
+                    story.ReadWord();
+                    MAIN.NewStory();
+                }
+                else {
+                    alert("密碼不正確");
+                }
+
+            }
+        )
+    }
+
+
+    Crypto(data) {
+        return data;
+    }
+}
+
+class ChoseButton{
+    constructor() {
+        this.SpecialDataName = {
+            "start.json" : {
+                "article": {
+                    6: {
+                        "A": {
+                            "content": "hello",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "outlineA",
+                                "IthArt":1 
+                            }
+                        },
+                        "B": {
+                            "content": "hello world",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "outlineB",
+                                "IthArt": 1
+                            }
+                        }
+                    }
+                }
+            }
+        };
+        this.IdList = Array();
+        this.IdListFunc = Object();
+    }
+
+    InitNewArticle(FileName, ArtName, ArtIdx) {
+        try{
+            this.data = this.SpecialDataName[FileName][ArtName][ArtIdx];
+        }
+        catch(err) {
+            console.log("Choose_button_InitNewArtcle: This article doesn't exit");
+            this.data = false;
+        }
+        this.FileName = FileName;
+        this.ArtName = ArtName;
+        this.ArtIdx = ArtIdx;
+    }
+
+
+    GetData() {
+        return this.data;
+    }
+    GetIdFormatString(key) {
+        this.IdOrg = "{0}/{1}-{2} of {3}";
+        return `${this.FileName}/${this.ArtName}-${this.ArtIdx} of ${key}`;
+    }
+
+    MakeButtonHtml() {
+        let ButtonHtml = "";
+
+        // <button id="A" class="choose_button">A.A</button>
+        for( const [key, value] of Object.entries(this.data)) {
+            // console.log(key, value);
+            let id = this.GetIdFormatString(key);
+            this.IdList.push(id);
+            ButtonHtml += 
+            `
+            <button id="${id}" class="choose_button" data="${key}">${value['content']}</button>
+            `
+        }
+        console.log(ButtonHtml);
+        return ButtonHtml;
+    }
+    EventActivate(htmlEle, key, obj) {
+        console.log(`Choose_Button_EventActivate: You click ${key} button`);
+        story.DirectTo(
+            obj["FileName"],
+            obj["ArtName"],
+            obj["IthArt"]
+        );
+        story.ReadWord();
+        MAIN.NewStory();
+    }
+
+    AddButtonEventListenter() {
+        for( const id of this.IdList ) {
+            let htmlEle = document.getElementById(id);
+            let key = htmlEle.getAttribute('data');
+            let obj = this.data[key];
+            console.log(obj);
+            const Fnc = this.EventActivate.bind(false, htmlEle, key, obj['jumpTo']);
+            htmlEle.addEventListener(
+                'click', 
+                Fnc,
+                {'once': true}
+            )
+            this.IdListFunc[id] = Fnc;
+            // https://developer.mozilla.org/zh-TW/docs/Web/API/Element/getAttribute
+        }
+    }
+
 }
 
 class music {
@@ -102,10 +256,8 @@ class Element {
         this.StylePositoin = position;
         this.ElementCnt = 0;
         this.PrevEle = "none";
-        
-        this.Password = "none";
-        this.PasswordId = "none";
         this.Status = "Go";
+        
         this.ReadPassword();
     }
 
@@ -139,7 +291,7 @@ class Element {
 
     AddElement(tag='p', InHtml='', class_='', RegardAsPreEle = true) {
         if( this.Status == 'stop' ) {
-            console.log("Now pause");
+            console.log("Element_AddElement: Now pause");
             return "false";
         }
         this.ElementCnt++;
@@ -162,6 +314,7 @@ class Element {
         }
     }
 
+
     NewStory() {
         this.CleanElement();
         this.Status = "Go";
@@ -172,7 +325,6 @@ class Element {
     }
     AddPassword(PwdId) {
         this.PasswordId = PwdId;
-        this.Status = 'stop';
     }
     GetPassword() {
         if( this.PasswordId == 'none') {
@@ -185,6 +337,7 @@ class Element {
         return InputPsd.value;
     }
     CheckPassword() {
+        console.log(this.Password, this.GetPassword())
         return this.Password == this.GetPassword();
     }
 
@@ -195,25 +348,55 @@ class Element {
 
 
 class Liter {
-    constructor(FilePos, IthArt=0) {
+    constructor(FilePos, FileName, OriginName = "article",IthArt=0) {
         this.FilePos = FilePos;
         this.NowIdx = 0;
         this.IthArt = IthArt;
-        this.OriginName = "article";
+        this.OriginName = OriginName; //ArtName
+        this.FileName = FileName;
+
+        this.SpecialArticleTrans = {
+            "start.json" : {
+                "outlineA":{
+                    1:{
+                        "jumpTo": {
+                            "FileName" : "start.json",
+                            "ArtName" : "final",
+                            "IthArt": 1
+                        }
+                    }
+                },
+                "outlineB":{
+                    1:{
+                        "jumpTo": {
+                            "FileName" : "start.json",
+                            "ArtName" : "final",
+                            "IthArt": 1
+                        }
+                    }
+                }
+            }
+        }
+
 
         this.ReadWord();
     }
     ReadWord() {
+        this.SpecialArticle();
+        // console.log(this.FileName, this.OriginName, this.IthArt);
         this.story = 
-        fetch(this.FilePos)
+        fetch(this.FilePos+this.FileName)
             .then((res)=>res.json())
             .then((json)=>{
                 // console.log(this.OriginName+this.IthArt)
                 this.IthArt++;
+                // console.log(json[this.OriginName+this.IthArt])
+                // console.log(this.OriginName,this.IthArt)
                 return json[this.OriginName+this.IthArt]
             });
         this.NowIdx = 0;
     }
+
     NextandAddInto(id) {
         this.story.then((val) => {
             // console.log(val);
@@ -221,11 +404,34 @@ class Liter {
                 document.getElementById(id).innerHTML += DATA.EndString;
                 return;
             }
-            console.log(val[ this.NowIdx])
+            // console.log(val[ this.NowIdx])
             document.getElementById(id).innerHTML += val[ this.NowIdx ];
             this.NowIdx++;
         }
         );
+    }
+    SpecialArticle() {
+        let data;
+        try {
+            data = this.SpecialArticleTrans[this.FileName][this.OriginName][this.IthArt];
+        }
+        catch {
+            console.log("Liter_SpecialArticle: data doesn't exit");
+            return;
+        }
+        if( data ) {
+            this.DirectTo(
+                data["jumpTo"]["FileName"],
+                data["jumpTo"]["ArtName"],
+                data["jumpTo"]["IthArt"]
+            );
+        }
+    }
+
+    DirectTo(FileName, ArtName, IthArt) {
+        this.FileName = FileName;
+        this.OriginName = ArtName; //ArtName
+        this.IthArt = IthArt-1;
     }
 
 }
@@ -233,52 +439,72 @@ class Liter {
 
 function init() {
 
-
     MUSIC = new music();    
     DATA = new GLOBAL_DATA();
     MAIN = new Element(document.getElementById('main_process'), 'main_process', "");
     Cookie = new cookie();
+    Decide = new ChoseButton();
 
     let Body = new Element(document.getElementById("BODY"), "body", `../${FatherFileNmae}style/StartPage.json`);
     Body.ReadStyle();
     Cookie.LoginTimeCnt();
 
+    console.log(Decide.GetData('start.json', 'article', '1'));
 
-    let story = new Liter(`../${FatherFileNmae}data/story/start.json`);
+    story = new Liter(`../${FatherFileNmae}data/story/`, "start.json");
 
 
     
 
 
     document.addEventListener('keydown', function(event){
-        //console.log(event.key);
-        if( event.key == 'p') {
-            MUSIC.Change()
-        }
-        if(event.key == "Enter") {
-            MAIN.ScroolToEnd();
+        console.log("MAIN Status:", MAIN.Status);
+        MAIN.ScroolToEnd();
+        if(event.key == "Enter" && MAIN.Status == "Go") {
             // console.log(MAIN.EndString());
             if( MAIN.EndString() ) {
                 console.log(MAIN.Status);
+
                 if( MAIN.Status == "Go")  {
-                    MAIN.AddPassword(MAIN.AddElement('div', '<input/>', 'center', false));
-                    MAIN.status = "stop";
+                    Decide.InitNewArticle(story.FileName, story.OriginName, story.IthArt);
+                    if( Decide.GetData() ) {
+                        console.log("Start Making Decission");
+                        MAIN.AddElement('div', Decide.MakeButtonHtml(),"button_spacearound", false);
+                        Decide.AddButtonEventListenter();
+                        MAIN.Status = "stop";
+                    }
+                    else {
+                        DATA.OpenQuestion(
+                            story.OriginName+story.IthArt
+                        );
+                        setTimeout(()=>{
+                            MAIN.AddPassword(MAIN.AddElement('div', '<input/>', 'center', false));
+                            MAIN.Status = "Choose";
+                        }, 20);
+                    }
+
                 }
+
             }
             else {
                 story.NextandAddInto(MAIN.AddElement());
             }
         }
-        if( event.key == '/' ) {
-            let ans = MAIN.CheckPassword();
-            if( ans ) {
-                story.ReadWord();
-                MAIN.NewStory();
-                alert("密碼正確");
-            }
-            else {
-                alert("密碼不正確");
-            }
+
+        if( event.key == '/' && MAIN.Status == "Choose" ) {
+            DATA.CheckPassword(
+                story.OriginName+story.IthArt,
+                MAIN.GetPassword()
+            );
+            // if( ans ) {
+            //     story.ReadWord();
+            //     MAIN.NewStory();
+            //     alert("密碼正確");
+            // }
+            // else {
+            //     alert("密碼不正確");
+            // }
         }
+        setTimeout(()=>MAIN.ScroolToEnd(), 20);
     });
 }

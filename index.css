@@ -41,7 +41,7 @@ body {
 
 
 
-#main_process *{
+#main_process > *{
     margin: 20px;
     border-bottom: 5px gray solid;
     overflow-wrap: break-word;
@@ -69,6 +69,52 @@ body {
     justify-content: center;
     padding-bottom: 20px;
 }
+
+.button_spacearound {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: space-around;
+    padding-bottom: 0px;
+}
+#main_process button {
+    border-bottom: 2px gray outset;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+#main_process button:hover{
+    background-color: peru;
+    color: white;
+    border-bottom: 2px gray outset;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+#main_process button:active{
+    background-color: rgb(189, 202, 9);
+    color: white;
+    border-bottom: 2px gray outset;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.Choose {
+    color:red;
+
+}
+.Choose::before {
+    color: green;
+    position: absolute;
+}
+.Choose::selection {
+    color:gray;
+}
+
 
 
 .bold {

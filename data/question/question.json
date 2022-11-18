@@ -1,0 +1,121 @@
+{
+    "article1" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "abcde"
+        
+    },
+    "article2" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article3" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article4" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article5" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article6" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article7" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article8" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article9" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article10" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article11" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article12" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    }
+}
