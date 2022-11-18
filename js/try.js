@@ -756,11 +756,14 @@ class Liter {
 
 function init() {
     Cookie = new cookie();
-    alert(Cookie.getCookie('login'));
-    if( Cookie.getCookie('login') == true) {
+    let d = Cookie.getCookie('login');
+    console.log(d);
+    if( d == 'true') {
+        console.log(d, 1);
         Cookie.setCookie("login", false);
     }
     else {
+        console.log(d, 2);
         Cookie.setCookie("login", true);
         setTimeout(
             ()=>{document.location = "https://william1010121.github.io/FDCS_REUNION_WEB/StartPage/StartPage.html";},
