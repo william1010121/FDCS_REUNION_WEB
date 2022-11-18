@@ -1,10 +1,13 @@
 {
-    "body" : {
+    "MainInit" : {
         "background-color": "antiquewhite",
-        "background-image": "url('data/pikachu_background.png')",
+        "background-image": "url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png')",
         "background-size": "1000px 1000px",
         "background-repeat": "no-repeat",
         "background-position": "center",
         "background-attachment": "fixed"
+    },
+    "article1" : {
+        "background-image": "url('../data/pikachu_background.png')"
     }
 }

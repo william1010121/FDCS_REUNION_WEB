@@ -1,3 +1,4 @@
+var Body;
 var DATA;
 var MUSIC;
 var FatherFileNmae = "FDCS_REUNION_WEB/";
@@ -57,7 +58,7 @@ class GLOBAL_DATA{
         ];
         this.BgcolorCnt = 0;
         this.EndString = "謎題開始";
-        this.QuestoinPos = "../data/question/";  
+        this.QuestoinPos = `../${FatherFileNmae}data/question/`;  
         this.QuestoinName = "question.json";  
 
         this.WebCnt = 0;
@@ -100,7 +101,7 @@ class GLOBAL_DATA{
                 if( guestPassword == data[articleName]['answer']) {
                     alert("密碼正確");
                     story.ReadWord();
-                    MAIN.NewStory();
+                    MAIN.NewStory(story.OriginName, story.IthArt);
                 }
                 else {
                     alert("密碼不正確");
@@ -192,7 +193,7 @@ class ChoseButton{
             obj["IthArt"]
         );
         story.ReadWord();
-        MAIN.NewStory();
+        MAIN.NewStory(story.OriginName, story.IthArt);
     }
 
     AddButtonEventListenter() {
@@ -252,8 +253,7 @@ class music {
 class Element {
     constructor (element, name, position=""){
         this.ele = element;
-        this.name = name;
-        this.StylePositoin = position;
+        this.StylePosition = position;
         this.ElementCnt = 0;
         this.PrevEle = "none";
         this.Status = "Go";
@@ -269,16 +269,37 @@ class Element {
         this.style[ key ] = value;
         this.SetStyles(this.style);
     }
-    SetStyles(styledic) {
-        Object.assign(this.ele.style, styledic);
+    InitStyle(Id) {
+        this.style.then(
+            (res) => {
+                Object.assign(this.ele.style, res[Id]);
+            }
+        );
+    }
+    SetStyles(dict) {
+        Object.assign(this.ele.style, dict);
+
     }
 
     ReadStyle() {
-        this.style = fetch(this.StylePositoin) 
+        this.style = fetch(this.StylePosition) 
             .then((response)=>response.json())
-            .then((json)=>this.SetStyles(json[this.name]));
     }
 
+    UpdateStyle(ArtName, ArtIdx) {
+        this.style.then(
+            (data)=>{
+                ArtIdx++;
+                let nm = ArtName+ArtIdx;
+                if(nm in data) {
+                    for( const [key, value] of Object.entries(data[nm])) {
+                        console.log(key, value);
+                        this.Setstyle(key, value);
+                    }
+                }
+            }
+        );
+    }
 
     HaveScrollBar() {
         return ( this.ele.scrollHeight > this.ele.clientHeight );
@@ -315,9 +336,10 @@ class Element {
     }
 
 
-    NewStory() {
+    NewStory(ArtName, ArtIdx) {
         this.CleanElement();
         this.Status = "Go";
+        Body.UpdateStyle(ArtName, ArtIdx);
     }
 
     CleanElement() {
@@ -445,15 +467,15 @@ function init() {
     Cookie = new cookie();
     Decide = new ChoseButton();
 
-    let Body = new Element(document.getElementById("BODY"), "body", `../${FatherFileNmae}style/StartPage.json`);
+    Body = new Element(document.getElementById("BODY"), "body", `../${FatherFileNmae}style/MAINstyle.json`);
     Body.ReadStyle();
+    Body.InitStyle("MainInit");
+
     Cookie.LoginTimeCnt();
 
-    console.log(Decide.GetData('start.json', 'article', '1'));
 
     story = new Liter(`../${FatherFileNmae}data/story/`, "start.json");
-
-
+    Body.UpdateStyle(story.OriginName, story.IthArt);
     
 
 
