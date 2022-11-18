@@ -710,7 +710,7 @@ class Liter {
         try {
             data = this.SpecialArticleTrans[this.FileName][this.OriginName][this.IthArt];
         }
-        finally {
+        catch(err) {
             console.log("Liter_SpecialArticle: data doesn't exit");
             return;
         }
@@ -753,7 +753,7 @@ function init() {
     
 
     //debug
-    // story.DirectTo("start.json", "A", 6);
+    story.DirectTo("start.json", "article", 5);
     //
 
     document.addEventListener('keydown', function(event){
