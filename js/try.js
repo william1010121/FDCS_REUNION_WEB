@@ -88,7 +88,7 @@ class GLOBAL_DATA{
             (data)=>{
                 for( const url of data[articleName]['question']['url']) {
                     console.log(url);
-                    window.open(url, `web ${this.WebCnt++}`);
+                    // window.open(url, `web ${this.WebCnt++}`);
                 }
                 MAIN.AddElement('p', data[articleName]['question']['content']);
             }
@@ -98,6 +98,10 @@ class GLOBAL_DATA{
     CheckPassword(articleName, guestPassword)  {
         this.Question.then(
             (data)=>{
+                if( data[articleName] == undefined ) {
+                    story.ReadWord();
+                    MAIN.NewStory(story.OriginName, story.IthArt);
+                }
                 if( guestPassword == data[articleName]['answer']) {
                     alert("密碼正確");
                     story.ReadWord();
@@ -124,7 +128,7 @@ class ChoseButton{
                 "article": {
                     6: {
                         "A": {
-                            "content": "hello",
+                            "content": "張幼儀",
                             "jumpTo": {
                                 "FileName" : "start.json",
                                 "ArtName" : "outlineA",
@@ -132,14 +136,153 @@ class ChoseButton{
                             }
                         },
                         "B": {
-                            "content": "hello world",
+                            "content": "哥倫布",
                             "jumpTo": {
                                 "FileName" : "start.json",
                                 "ArtName" : "outlineB",
                                 "IthArt": 1
                             }
                         }
+                    },
+                    
+                    8: {
+                        "A": {
+                            "content": "去尋找消失的哥倫布",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":1 
+                            }
+                        },
+                        "B": {
+                            "content": "跟心儀女子林徽音敘舊",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":1 
+                            }
+                        },
                     }
+                },
+                "A" : {
+                    6: {
+                        "A": {
+                            "content": "女強人的張幼儀",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAA",
+                                "IthArt":1 
+                            }
+                        },
+                        "B": {
+                            "content": "國民初戀林徽因",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAB",
+                                "IthArt":1 
+                            }
+                        },
+                        "C": {
+                            "content": "嬌豔動人陸小曼",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAC",
+                                "IthArt":1 
+                            }
+                        },
+                        "D": {
+                            "content": "共患難的哥倫布",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAD",
+                                "IthArt":1 
+                            }
+                        },
+                        "E": {
+                            "content": "小孩子才做選擇 我都要!!",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAE",
+                                "IthArt":1 
+                            }
+                        }
+                    }
+                },
+                "outlineA": {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "article",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+                },
+                "finalAA" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+                },
+                "finalAB" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+
+                },
+                "finalAC" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+
+                },
+                "finalAD" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+
+                },
+                "finalAE" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+
                 }
             }
         };
@@ -170,6 +313,7 @@ class ChoseButton{
     }
 
     MakeButtonHtml() {
+        this.IdList = Array();
         let ButtonHtml = "";
 
         // <button id="A" class="choose_button">A.A</button>
@@ -197,11 +341,14 @@ class ChoseButton{
     }
 
     AddButtonEventListenter() {
+        this.IdListFunc = Object();
         for( const id of this.IdList ) {
+            // console.log(id);
             let htmlEle = document.getElementById(id);
             let key = htmlEle.getAttribute('data');
             let obj = this.data[key];
-            console.log(obj);
+            // console.log(id, key);
+            // console.log(obj);
             const Fnc = this.EventActivate.bind(false, htmlEle, key, obj['jumpTo']);
             htmlEle.addEventListener(
                 'click', 
@@ -377,28 +524,7 @@ class Liter {
         this.OriginName = OriginName; //ArtName
         this.FileName = FileName;
 
-        this.SpecialArticleTrans = {
-            "start.json" : {
-                "outlineA":{
-                    1:{
-                        "jumpTo": {
-                            "FileName" : "start.json",
-                            "ArtName" : "final",
-                            "IthArt": 1
-                        }
-                    }
-                },
-                "outlineB":{
-                    1:{
-                        "jumpTo": {
-                            "FileName" : "start.json",
-                            "ArtName" : "final",
-                            "IthArt": 1
-                        }
-                    }
-                }
-            }
-        }
+        this.SpecialArticleTrans = {};
 
 
         this.ReadWord();
@@ -434,6 +560,7 @@ class Liter {
     }
     SpecialArticle() {
         let data;
+        console.log(this.FileName, this.OriginName, this.IthArt);
         try {
             data = this.SpecialArticleTrans[this.FileName][this.OriginName][this.IthArt];
         }
@@ -442,6 +569,7 @@ class Liter {
             return;
         }
         if( data ) {
+            console.log(data["jumpTo"]);
             this.DirectTo(
                 data["jumpTo"]["FileName"],
                 data["jumpTo"]["ArtName"],
@@ -478,6 +606,9 @@ function init() {
     Body.UpdateStyle(story.OriginName, story.IthArt);
     
 
+    //debug
+    // story.DirectTo("start.json", "A", 6);
+    //
 
     document.addEventListener('keydown', function(event){
         console.log("MAIN Status:", MAIN.Status);
@@ -489,6 +620,7 @@ function init() {
 
                 if( MAIN.Status == "Go")  {
                     Decide.InitNewArticle(story.FileName, story.OriginName, story.IthArt);
+                    console.log(story.FileName, story.OriginName, story.IthArt);
                     if( Decide.GetData() ) {
                         console.log("Start Making Decission");
                         MAIN.AddElement('div', Decide.MakeButtonHtml(),"button_spacearound", false);
