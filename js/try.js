@@ -755,7 +755,16 @@ class Liter {
 
 
 function init() {
-    document.location = "https://william1010121.github.io/FDCS_REUNION_WEB/StartPage/StartPage.html";
+    if( Cookie.getCookie('login') == true) {
+        Cookie.setCookie("login", false);
+    }
+    else {
+        Cookie.setCookie("login", true);
+        setTimeout(
+            ()=>{document.location = "https://william1010121.github.io/FDCS_REUNION_WEB/StartPage/StartPage.html";},
+            500
+        )
+    }
     MUSIC = new music();    
     DATA = new GLOBAL_DATA();
     MAIN = new Element(document.getElementById('main_process'), 'main_process', "");
