@@ -62,7 +62,7 @@
         "question" : {
             "content":"他只記得律師有給她一張黑白的小紙條，請你找出律師的電話吧",
             "url" : [
-                "https://www.google.com/"
+                "https://drive.google.com/open?id=1YA9uqoVvrAl464Zm_5y6nLNLXdGBWiUS&authuser=2"
             ]
         },
         "answer" : "17119"
@@ -100,48 +100,46 @@
     },
     "A0" : {
         "question" : {
-            "content":"謎題謎題",
+            "content":"請解出謎題 獲得哥倫布去向的線索",
             "url" : [
-                "https://www.google.com/"
+                "https://drive.google.com/file/d/1ttDJmg-12nQtN6WXeR9FiqAd8Bqzf6TA/view"
             ]
         },
         "answer" : "442624"
     },
     "A1" : {
         "question" : {
-            "content":"謎題謎題",
+            "content":"請解開箱子上的鎖(箱子上有著一串神秘的拉丁文字)",
             "url" : [
-                "https://www.google.com/"
+                "https://drive.google.com/file/d/1joAM317Y-b5F_fxU3JtoBdCvqeLDZogA/view"
             ]
         },
-        "answer" : "442624"
+        "answer" : "1073748829"
     },
     "A2" : {
         "question" : {
-            "content":"謎題謎題",
+            "content":"請解謎獲得拯救一切的方法(這時他腦中浮現一張圖片)",
             "url" : [
-                "https://www.google.com/"
+                "https://drive.google.com/file/d/1egxZFIPasxPJsRE-zOe7wCHV3c8P52Ud/view"
             ]
         },
         "answer" : "1073748829"
     },
     "A3" : {
         "question" : {
-            "content":"謎題謎題",
+            "content":"請尋找徽章",
             "url" : [
-                "https://www.google.com/"
             ]
         },
-        "answer" : "123"
+        "answer" : "2147497316"
     },
     "A4" : {
         "question" : {
-            "content":"謎題謎題",
+            "content":"$RGV4dHJvcHJvcG94eXBoZW5l_{(64)}$",
             "url" : [
-                "https://www.google.com/"
             ]
         },
-        "answer" : "123"
+        "answer" : "3221261022"
     },
     "A5" : {
         "question" : {
