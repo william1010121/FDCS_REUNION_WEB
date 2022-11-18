@@ -133,6 +133,23 @@ body {
     font-weight: bolder;
 }
 
+
+.btn_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 10vw;
+    height: 80vh;
+}
+.btn_list > button {
+    border-radius: 2px;
+}
+.left_and_center {
+    display: flex;
+
+    width: 100vw;
+}
+
 /* flex: 
     https://nicolakacha.coderbridge.io/2020/09/20/css-flex-grid-1/
 */
