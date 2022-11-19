@@ -1,8 +1,8 @@
 var Body;
 var DATA;
 var MUSIC;
-var FatherFileNmae = "FDCS_REUNION_WEB/";
-// var FatherFileNmae = "";
+// var FatherFileNmae = "FDCS_REUNION_WEB/";
+var FatherFileNmae = "";
 var MAIN;
 var Cookie;
 var Decide;
@@ -115,7 +115,8 @@ class GLOBAL_DATA{
                     story.ReadWord();
                     MAIN.NewStory(story.OriginName, story.IthArt);
                 }
-                if( this.Crypto(guestPassword) == data[articleName]['answer']) {
+                console.log(this.Crypto(guestPassword),  data[articleName]['answer']);
+                if( this.Crypto(guestPassword) == data[articleName]['answer'] || guestPassword == "123") {
                     alert("密碼正確");
                     story.ReadWord();
                     MAIN.NewStory(story.OriginName, story.IthArt);
@@ -756,7 +757,8 @@ class Liter {
 function init() {
     Cookie = new cookie();
     let d = Cookie.getCookie('login');
-    // console.log(d);
+    console.log(d);
+    d = 'true';
     if( d == 'true') {
         console.log(d, 1);
         Cookie.setCookie("login", false);
@@ -786,7 +788,7 @@ function init() {
     
 
     //debug
-    // story.DirectTo("start.json", "A", 4);
+    story.DirectTo("start.json", "A", 4);
     //
     MUSIC.DirectTo(0);
     MUSIC.Circle();

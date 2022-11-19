@@ -135,8 +135,9 @@
     },
     "A4" : {
         "question" : {
-            "content":"他忘了暗號只發現口袋有一張陸小曼給的小紙條，小紙條上寫著 $RGV4dHJvcHJvcG94eXBoZW5l_{(64)}$",
+            "content":"他忘了暗號只發現口袋有一張陸小曼給的小紙條，小紙條上寫著</p><p> $RGV4dHJvcHJvcG94eXBoZW5l_{(64)}$ ",
             "url" : [
+               "https://www.latexlive.com/" 
             ]
         },
         "answer" : "3221261022"
