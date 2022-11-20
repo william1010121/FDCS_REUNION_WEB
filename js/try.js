@@ -792,10 +792,10 @@ function init() {
     MUSIC.Circle();
 
     document.addEventListener('keydown', function(event){
-        console.log("MAIN Status:", MAIN.Status);
+        console.log("MAIN Status:", MAIN.Status, event.key);
         MAIN.ScroolToEnd();
         if(event.key == "Enter" && MAIN.Status == "Go") {
-            // console.log(MAIN.EndString());
+            console.log(MAIN.EndString());
             if( MAIN.EndString() ) {
                 console.log(MAIN.Status);
 
