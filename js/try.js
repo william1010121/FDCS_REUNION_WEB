@@ -1,1 +1,856 @@
-var _0xodv='jsjiami.com.v6',_0xodv_=['‮_0xodv'],_0x1805=[_0xodv,'QMK7RcOGQQ==','wq9EU8Kow6la','wqxIVcKEw65Ww5t+','GDBw','wqoiw73DnBE=','w7rCqRN7w4PDvsO7wq4U','wqtyEVA=','w5jCqcOO','N3XCjHvDmA==','w6HCq8OzBw==','wrk5cz4eDsK/wo3Cqw==','w5LCuMOEfMOFwrXCnn7Dl2HCvg==','McOoNMOiCw==','w4AOw6DCl8Oc','TDQnwoJXE8Kie04=','wqvCncOCFMOoQg==','woPDu8OQLcKz','wpc2w7vDhhc=','XGs/w4zDl3XDugjCiQ==','EHXCkmLDr8KV','wqPCi8KEw4fDpw==','w5rDokVMBcKlw5kdMg==','w54Aw7vCgQ==','w6TChMOrUBU=','fG8yw5fDlw==','w5bCssOXwohdaho=','w6EAw7fCncOd','w4zDpW4=','w5bDrcKJw77CtXNVw543wrdyPGw=','LMKDXA4tw4TCmA==','w6dsQA==','wq8WwpbDvMKIw7UHwrvCk8OSwqVj','w5bDvMKEw6HCpFpWw4g=','wpvCgcOaFsOq','wqQzcD4eFsKnwp3Cqw==','w5XCpcOGwq1sfxNbWw==','wpIyDA==','w7bDrcKJw77CtQ==','wrrCkMOCHsOcU8KUQsOF','fGsnw5LDhg==','w4oxwovClMK1','wqQqEC7DuWvDoEEiw78SRMK3','wqzDrxNQ','wpsgNsKn','BMOlJA==','w5rDqnltwo9nw5BdwpXDqzlN','UTgiwr5MHsKCYXg3w4s=','w6DDtcKV','EsOqM8O+AsOFWmnClw==','f8KbwoTDicO8w7oIwrMXw43Dq0c=','Tns6w7vDj0DDuwzCnmA=','QVDDimPCrHNKwp9/','wpHCpMOSM8KC','ScKUwpPDi8O1w7g0wpUQw54=','w45ow6jCsA==','wrPDucKuUQ==','w5jCoMOHUCLChmM=','w7HDscOQw7fCvEZXw4gwwrc9OmRb','NGHCknc=','w7TCocOTY8OFwrXCnmnDkHg=','wqgbw4LDmMKQw6QYwrfCn8OTw7Fpw5LCow==','wrISwo/DmA==','wqzDsBBjRcKrwoAPZw==','w7bCosOmO1ABYcOww5hJEyttbg==','wobCsxTDi0g=','eMK7B8KcHW1lIsOx','wq7Dr8KxScK2M8OwPcO7bGTDqg==','wozCijDDhW05wpRgcw==','w5pdFsKdwr1ewrxteg==','KMKjZBkO','wr4ibCwYGw==','McKJXwY9w4g=','cFBaakVrJg==','CcKfcApwwoPDoA3Cg30=','wphTKmdK','YGLCqlQ=','esKpX8Ob','wpEcDzXDiA==','w4nCssObwplxaDFfRcOc','wqHCgcOLO8O9Uw==','wqBYwofCvyDCqcOPwq0sYWzDo8KOw54=','w63CvsOHSwLChHIuw6vDlljCk8Oj','wq0rwpTDusKl','5paZ5Lu457ay5p+i','wp7Dt8K7WsKh','bRJkwpc=','wqBSwojCgiXCvw==','wqXDtVfCk8Oiaw==','H0HCkF3Dng==','w6vCmjFGw7vDocOF','MzNrw57Cr8KAw6bDocODw6M=','aGUQw5bDtA==','wqxawpzCpC3CqMOZwq8mcQ==','w5wAw7I=','wrrDuwBDRcKgwoUE','SMOCwpZ3Sw==','wrl5E0Zuw53CugzDocKO','wo/CkMOXP8OjQsKAS8OOwpXDuMKAesOk','wqfCsT/DoVY=','wpbDqAF3fsKj','w6VlUcOiw5hfNsOnAMONw4rDnxTDnA==','ZnEww5vDkW3DgiTCvA==','eFZBRnF8','w5/CqMOlN1gc','A8KDbQhr','wooHw6zDoxQ=','TMKVw6vCmsK+GUtnMhrCu8OA','wqU4w6rDjA==','wpA7HQfDsF7Dolclw78/VMKQDA==','wrYtw7TDtiQ=','w7HDgC3DuMO1','wqzDqU8/w4M=','wpUyw6/DkSHDl8K8wp0x','wqwuCg==','w43Dv8KwRH5UA8KVLgDDrcOrw4VswoHDoMKEwpPDsBfCiQ==','J8KJfShvwojDgBjConHDiRVMXUsg','w7bClcOaS8KJ','wrNxMVFD','wq/Dn14=','UsOswoBzVcK6','wpfChsKZw4/Dow==','TmzDvH/Cmw==','CcKpUBkd','wo8dAC/DrA==','WcKLwq/Di8O0','wrvClsORFcOgS8K5QcOlwo/Dng==','w7UBw7HCt8ONRxDDhcO7','NMOlEsO/JA==','M8OsIMO1OcOGfGI=','wrfDjl4Hw7A=','X8KdwoLDtcOkw68swrMN','w5vCnMOqfsKxFMKfwpTDpsKNHMO+wpzDmw==','YMKQw6bCscKNDFRtPws=','wodTwpHCrjPCj8O/wqEE','wo8LbiVv','JMOlJMO8C8OHekXCicO3','wq7Dn8K9AsK1U8OPHcOsKnTDpsOfwqs=','Rl/DiWM=','w5kgTAY=','w5JyQMORw7FWPg==','w6zDssKhSDRJA8K5Mg0=','wp3DtlRVXcK8woQEbsK8wobDjXFR','wovChTPDhQ==','w4dsQMOKw5FUL8OBAMON','wppVw5/Cri3CosOGwokmcQXDosKcwpE=','ez48wr1MBQ==','worCmcOCGcOk','w57DtsKtSSVC','wpjDsMOeKMKVecOw','c3jCql/Djw==','NGHClEjDsA==','w4MNw6DCpsO6','T30Nw7QH','w7PCqsOVYcOMwrTCmGnDkHg=','w5bCkcOzZMK3H8K5wrLDgcKGOcO/wpo=','w5TCocOTY8OFwrXCngfDnWPCt8OXw4Q=','wrAWwozDmsKIw6k=','Vm3CrFXDjTTCsDlcwos=','woTCmsOE','wq7Do8OsLsKe','QWMhw44Bw7ZU','wqoiw73DnBHDvMKpwpgnwq0=','w6rClAg=','SQLDt8OBwrbDtmjDtcK3w7XCvB15GcKww4rDq8OTMQ==','w6bCkMOobw==','EsKTWyY6w6/ChlTCuCY=','cB55','X8K6HsKqG1h0L8O2','jXskejNiSamwikrrnU.cyZYoLm.Dv6=='];if(function(_0x17a39d,_0x1005d4,_0x395a39){function _0x448fb5(_0x1dfa95,_0x2d0393,_0x21ca00,_0x5e7d2f,_0xd2ee19,_0x478999){_0x2d0393=_0x2d0393>>0x8,_0xd2ee19='po';var _0x14d955='shift',_0x4ca581='push',_0x478999='‮';if(_0x2d0393<_0x1dfa95){while(--_0x1dfa95){_0x5e7d2f=_0x17a39d[_0x14d955]();if(_0x2d0393===_0x1dfa95&&_0x478999==='‮'&&_0x478999['length']===0x1){_0x2d0393=_0x5e7d2f,_0x21ca00=_0x17a39d[_0xd2ee19+'p']();}else if(_0x2d0393&&_0x21ca00['replace'](/[XkeNSwkrrnUyZYLD=]/g,'')===_0x2d0393){_0x17a39d[_0x4ca581](_0x5e7d2f);}}_0x17a39d[_0x4ca581](_0x17a39d[_0x14d955]());}return 0x1128ae;};return _0x448fb5(++_0x1005d4,_0x395a39)>>_0x1005d4^_0x395a39;}(_0x1805,0x139,0x13900),_0x1805){_0xodv_=_0x1805['length']^0x139;};function _0x1ec2(_0x4cb25e,_0x5cd9b5){_0x4cb25e=~~'0x'['concat'](_0x4cb25e['slice'](0x1));var _0x1f4f25=_0x1805[_0x4cb25e];if(_0x1ec2['hbPsdj']===undefined){(function(){var _0xb98513=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x128918='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0xb98513['atob']||(_0xb98513['atob']=function(_0x1e4a0e){var _0x4391d0=String(_0x1e4a0e)['replace'](/=+$/,'');for(var _0x100323=0x0,_0x1949e5,_0xcd45f4,_0x29cc14=0x0,_0x523db8='';_0xcd45f4=_0x4391d0['charAt'](_0x29cc14++);~_0xcd45f4&&(_0x1949e5=_0x100323%0x4?_0x1949e5*0x40+_0xcd45f4:_0xcd45f4,_0x100323++%0x4)?_0x523db8+=String['fromCharCode'](0xff&_0x1949e5>>(-0x2*_0x100323&0x6)):0x0){_0xcd45f4=_0x128918['indexOf'](_0xcd45f4);}return _0x523db8;});}());function _0x5530c0(_0x9c595d,_0x5cd9b5){var _0xcabab8=[],_0x1a60e7=0x0,_0xbd73c1,_0x2a9685='',_0x5b5c27='';_0x9c595d=atob(_0x9c595d);for(var _0x5f3f80=0x0,_0x5f03ab=_0x9c595d['length'];_0x5f3f80<_0x5f03ab;_0x5f3f80++){_0x5b5c27+='%'+('00'+_0x9c595d['charCodeAt'](_0x5f3f80)['toString'](0x10))['slice'](-0x2);}_0x9c595d=decodeURIComponent(_0x5b5c27);for(var _0x3f494b=0x0;_0x3f494b<0x100;_0x3f494b++){_0xcabab8[_0x3f494b]=_0x3f494b;}for(_0x3f494b=0x0;_0x3f494b<0x100;_0x3f494b++){_0x1a60e7=(_0x1a60e7+_0xcabab8[_0x3f494b]+_0x5cd9b5['charCodeAt'](_0x3f494b%_0x5cd9b5['length']))%0x100;_0xbd73c1=_0xcabab8[_0x3f494b];_0xcabab8[_0x3f494b]=_0xcabab8[_0x1a60e7];_0xcabab8[_0x1a60e7]=_0xbd73c1;}_0x3f494b=0x0;_0x1a60e7=0x0;for(var _0x183f7b=0x0;_0x183f7b<_0x9c595d['length'];_0x183f7b++){_0x3f494b=(_0x3f494b+0x1)%0x100;_0x1a60e7=(_0x1a60e7+_0xcabab8[_0x3f494b])%0x100;_0xbd73c1=_0xcabab8[_0x3f494b];_0xcabab8[_0x3f494b]=_0xcabab8[_0x1a60e7];_0xcabab8[_0x1a60e7]=_0xbd73c1;_0x2a9685+=String['fromCharCode'](_0x9c595d['charCodeAt'](_0x183f7b)^_0xcabab8[(_0xcabab8[_0x3f494b]+_0xcabab8[_0x1a60e7])%0x100]);}return _0x2a9685;}_0x1ec2['JkUmru']=_0x5530c0;_0x1ec2['iGNIai']={};_0x1ec2['hbPsdj']=!![];}var _0x43d920=_0x1ec2['iGNIai'][_0x4cb25e];if(_0x43d920===undefined){if(_0x1ec2['vmPvHv']===undefined){_0x1ec2['vmPvHv']=!![];}_0x1f4f25=_0x1ec2['JkUmru'](_0x1f4f25,_0x5cd9b5);_0x1ec2['iGNIai'][_0x4cb25e]=_0x1f4f25;}else{_0x1f4f25=_0x43d920;}return _0x1f4f25;};var DATA;var MUSIC;var FatherFileNmae='FDCS_REUNION_WEB/';var MAIN;class GLOBAL_DATA{constructor(){var _0x5735dc={'nakZK':_0x1ec2('‮0','Y8P1'),'sbuBC':_0x1ec2('‫1','ZYq@'),'LYouJ':_0x1ec2('‮2','&UtI')};this[_0x1ec2('‫3','!VCz')]=['red',_0x1ec2('‫4','SVsp'),_0x5735dc[_0x1ec2('‫5','$afE')],_0x5735dc[_0x1ec2('‮6','DNq9')],_0x5735dc[_0x1ec2('‫7','gfYc')]];this[_0x1ec2('‮8','^fQI')]=0x0;}[_0x1ec2('‮9','U4%U')](_0x505b2c){var _0x1ff6f4={'MCtXp':function(_0x1fa18a,_0xc36b07){return _0x1fa18a+_0xc36b07;},'tTqIG':_0x1ec2('‫a','^fQI')};let _0x3fb2a3=this['BGCOLOR'][_0x1ec2('‫b','uV0u')];this[_0x1ec2('‮c','SVsp')]=_0x1ff6f4['MCtXp'](this[_0x1ec2('‮c','SVsp')],0x1)%_0x3fb2a3;console[_0x1ec2('‫d','ZYq@')](_0x3fb2a3);_0x505b2c['Setstyle'](_0x1ff6f4[_0x1ec2('‫e','!VCz')],this[_0x1ec2('‫f','gfYc')][this['BgcolorCnt']]);}}class music{constructor(){this[_0x1ec2('‫10','kbLW')]=[_0x1ec2('‮11','z$TN')+FatherFileNmae+_0x1ec2('‮12',']dg7')];this[_0x1ec2('‮13','U4%U')]=this[_0x1ec2('‮14','#t$X')]['length'];this[_0x1ec2('‮15','SV)q')]=-0x1;this[_0x1ec2('‫16','Pm5j')]=_0x1ec2('‫17','w9g[');}[_0x1ec2('‫18','aW3w')](_0x235216){return this['music_list'][_0x235216];}[_0x1ec2('‮19','aW3w')](_0x3e5b63){this[_0x1ec2('‮1a','k9IU')]=_0x3e5b63;this[_0x1ec2('‮1b','kbLW')]=new Audio(this['GetIdx'](_0x3e5b63));}[_0x1ec2('‫1c','u&HF')](_0x911dcf,_0x1e8606=0x0){var _0x3fa153={'BKMKu':function(_0x243768,_0x68a797){return _0x243768==_0x68a797;},'PHXno':_0x1ec2('‮1d',']F4d')};if(_0x3fa153['BKMKu'](this[_0x1ec2('‫1e','^fQI')],-0x1))this['DirectTo'](0x0);this[_0x1ec2('‫1f','$afE')][_0x1ec2('‫20','s1J%')]();this[_0x1ec2('‮21','nbEY')]=_0x3fa153['PHXno'];this['music'][_0x1ec2('‮22','^fQI')]=_0x1e8606;}['Pause'](){var _0x397351={'aXzrr':_0x1ec2('‮23','i]m!')};this['music'][_0x1ec2('‫24','DNq9')]();this[_0x1ec2('‫25','Y8P1')]=_0x397351['aXzrr'];}[_0x1ec2('‮26','ZYq@')](){var _0x515898={'YLMJj':function(_0xd36ef3,_0xc9f3a2){return _0xd36ef3==_0xc9f3a2;},'EuACn':'Play'};if(_0x515898[_0x1ec2('‫27','!VCz')](this['NowStatus'],_0x515898['EuACn']))this[_0x1ec2('‮28','kbLW')]();else this[_0x1ec2('‫29','enh1')]();}[_0x1ec2('‫2a','$afE')](_0x5b0632){this[_0x1ec2('‮2b','Z2L6')]['currentTime']=_0x5b0632;}}class Element{constructor(_0x14a161,_0x46fc39,_0x2e4efc=''){var _0x521dc6={'lVIvr':_0x1ec2('‮2c','mAM*'),'Qobyd':_0x1ec2('‮2d','DNq9')};var _0x164331=_0x521dc6[_0x1ec2('‮2e','d!fR')][_0x1ec2('‮2f','enh1')]('|'),_0x291cac=0x0;while(!![]){switch(_0x164331[_0x291cac++]){case'0':this['ElementCnt']=0x0;continue;case'1':this['name']=_0x46fc39;continue;case'2':this[_0x1ec2('‮30','*2nN')]=_0x521dc6[_0x1ec2('‫31','DNq9')];continue;case'3':this[_0x1ec2('‫32','rVsZ')]=_0x14a161;continue;case'4':this[_0x1ec2('‮33','yff(')]=_0x2e4efc;continue;}break;}}[_0x1ec2('‮34','#t$X')](_0x3ba3e8,_0x5dc5ba){this[_0x1ec2('‮35','ne4c')][_0x1ec2('‮36','uV0u')](_0x3ba3e8,_0x5dc5ba);}[_0x1ec2('‫37','yff(')](_0x12b1f4,_0x5a2cea){this[_0x1ec2('‫38','ZYq@')][_0x12b1f4]=_0x5a2cea;this[_0x1ec2('‮39','nbEY')](this['style']);}[_0x1ec2('‮3a','*2nN')](_0x53b9e7){Object['assign'](this[_0x1ec2('‫3b','7)e0')][_0x1ec2('‮3c','yff(')],_0x53b9e7);}[_0x1ec2('‮3d','ZYq@')](){var _0xb2beb6={'OEONv':function(_0x31f813,_0x305ff8){return _0x31f813(_0x305ff8);}};this[_0x1ec2('‮3e','enh1')]=_0xb2beb6[_0x1ec2('‮3f','8C2V')](fetch,this[_0x1ec2('‫40','7)e0')])[_0x1ec2('‫41','B52l')](_0xce37c=>_0xce37c[_0x1ec2('‫42','&yLL')]())['then'](_0x58949a=>this['SetStyles'](_0x58949a[this['name']]));}['HaveScrollBar'](){var _0x37e41c={'XkrHr':function(_0x1a6407,_0x360c19){return _0x1a6407>_0x360c19;}};return _0x37e41c['XkrHr'](this[_0x1ec2('‫43','i]m!')][_0x1ec2('‮44','rVsZ')],this['ele']['clientHeight']);}[_0x1ec2('‮45','Y8P1')](){this[_0x1ec2('‫46','yff(')][_0x1ec2('‫47','i]m!')]=this['ele'][_0x1ec2('‮48','iuZs')];}[_0x1ec2('‫49','enh1')](_0x330b8a='p'){this['ElementCnt']++;this['ele'][_0x1ec2('‮4a','DW*k')]+='<'+_0x330b8a+_0x1ec2('‮4b','^fQI')+this[_0x1ec2('‫4c','iuZs')]+'th\x20element\x20of\x20'+this[_0x1ec2('‮4d','1u@C')]+_0x1ec2('‮4e','s1J%')+_0x330b8a+'>';this[_0x1ec2('‫4f','d!fR')]=this['ElementCnt']+_0x1ec2('‮50','yff(')+this[_0x1ec2('‮51','$afE')];return this[_0x1ec2('‮52','^fQI')]+_0x1ec2('‫53','uV0u')+this[_0x1ec2('‮54','uV0u')];}[_0x1ec2('‫55','mAM*')](_0x3762a5='故事結束'){var _0x2617bc={'cWJkW':function(_0x3d7829,_0x508f8e){return _0x3d7829==_0x508f8e;}};const _0x529a19=document[_0x1ec2('‫56','s1J%')](this['PrevEle']);if(_0x2617bc['cWJkW'](_0x529a19,null))return![];if(_0x2617bc[_0x1ec2('‮57','Hmea')](_0x529a19[_0x1ec2('‫58','Pm5j')],_0x3762a5)){return!![];}else{return![];}}[_0x1ec2('‫59','Vv5y')](){this[_0x1ec2('‫3b','7)e0')][_0x1ec2('‮5a','Hmea')]='';}}class Liter{constructor(_0x26c5f5,_0x4c528c=0x0){var _0x344fa4={'WELVW':_0x1ec2('‮5b','aW3w'),'cMZNH':'article'};var _0x12641f=_0x344fa4[_0x1ec2('‫5c','#t$X')]['split']('|'),_0x32b2ba=0x0;while(!![]){switch(_0x12641f[_0x32b2ba++]){case'0':this[_0x1ec2('‫5d','nbEY')]=_0x4c528c;continue;case'1':this[_0x1ec2('‫5e','#t$X')]=0x0;continue;case'2':this[_0x1ec2('‮5f','7hPa')]=_0x26c5f5;continue;case'3':this[_0x1ec2('‫60','b4Pf')]=_0x344fa4[_0x1ec2('‮61',']F4d')];continue;case'4':this['ReadWord']();continue;}break;}}['ReadWord'](){var _0x4882a0={'fBfwT':function(_0x787f1b,_0x3f4620){return _0x787f1b+_0x3f4620;}};this['story']=fetch(this['FilePos'])[_0x1ec2('‫62','SVsp')](_0x2ec888=>_0x2ec888[_0x1ec2('‮63','w9g[')]())['then'](_0x7c42df=>{this[_0x1ec2('‫5d','nbEY')]++;return _0x7c42df[_0x4882a0[_0x1ec2('‮64','7)e0')](this[_0x1ec2('‮65','*2nN')],this[_0x1ec2('‫66','ZYq@')])];});this['NowIdx']=0x0;}[_0x1ec2('‮67','*GTQ')](_0x31beff){var _0x67e3f={'gzNhW':function(_0xa6144c,_0x3250a9){return _0xa6144c%_0x3250a9;},'YFwjy':_0x1ec2('‫68','d!fR'),'ynWUH':function(_0x2a43b4,_0x3a9d69){return _0x2a43b4==_0x3a9d69;},'EAoOe':function(_0x14c79f,_0x5bcf38){return _0x14c79f!==_0x5bcf38;},'xdVXT':_0x1ec2('‮69','uV0u'),'BUaAI':_0x1ec2('‮6a','uV0u')};this[_0x1ec2('‮6b','Vv5y')][_0x1ec2('‫6c','SV)q')](_0x1f14e2=>{if(_0x67e3f['ynWUH'](this[_0x1ec2('‮6d','*GTQ')],_0x1f14e2[_0x1ec2('‮6e','FhI8')])){if(_0x67e3f[_0x1ec2('‮6f','$afE')](_0x67e3f['xdVXT'],_0x67e3f['xdVXT'])){let _0x40998c=this[_0x1ec2('‫70','u&HF')]['length'];this[_0x1ec2('‮71','k9IU')]=_0x67e3f[_0x1ec2('‮72','enh1')](this[_0x1ec2('‮73','*GTQ')]+0x1,_0x40998c);console[_0x1ec2('‫74','DNq9')](_0x40998c);element[_0x1ec2('‮75','mAM*')](_0x67e3f[_0x1ec2('‮76','cOli')],this['BGCOLOR'][this[_0x1ec2('‮77',']F4d')]]);}else{document[_0x1ec2('‫78','ZYq@')](_0x31beff)['innerHTML']+=_0x67e3f[_0x1ec2('‫79','Hmea')];return;}}console['log'](_0x1f14e2[this[_0x1ec2('‮7a','B52l')]]);document[_0x1ec2('‫7b','ne4c')](_0x31beff)[_0x1ec2('‮7c','enh1')]+=_0x1f14e2[this[_0x1ec2('‫7d','7hPa')]];this[_0x1ec2('‮7e','s1J%')]++;});}}function init(){var _0x469191={'HoAxA':function(_0x403878,_0x3bafd3){return _0x403878==_0x3bafd3;},'Yxnag':function(_0x53b5b1,_0x5c9bfb){return _0x53b5b1==_0x5c9bfb;},'fRXyE':_0x1ec2('‮7f','b4Pf'),'vOxVD':function(_0x425b0b,_0x7a4de6){return _0x425b0b!==_0x7a4de6;},'UlSnJ':_0x1ec2('‫80','kbLW'),'qzzCV':_0x1ec2('‮81','evMW'),'hShTV':_0x1ec2('‫82','kbLW'),'clHAY':'keydown'};MUSIC=new music();DATA=new GLOBAL_DATA();MAIN=new Element(document[_0x1ec2('‫83','7)e0')](_0x469191[_0x1ec2('‮84','kbLW')]),_0x469191[_0x1ec2('‫85','*WHl')],'');let _0x2ef7dc=new Element(document['getElementById']('BODY'),_0x469191[_0x1ec2('‫86','z$TN')],'../'+FatherFileNmae+'style/StartPage.json');_0x2ef7dc[_0x1ec2('‮87','kbLW')]();let _0x2db1a7=new Liter(_0x1ec2('‫88','ne4c')+FatherFileNmae+_0x1ec2('‮89','&UtI'));document[_0x1ec2('‫8a','b4Pf')](_0x469191[_0x1ec2('‫8b','U4%U')],function(_0x21a586){if(_0x469191[_0x1ec2('‮8c',']F4d')](_0x21a586[_0x1ec2('‮8d','z$TN')],'p')){MUSIC[_0x1ec2('‫8e','cOli')]();}if(_0x469191[_0x1ec2('‫8f','Z2L6')](_0x21a586['key'],_0x469191[_0x1ec2('‮90','DW*k')])){if(_0x469191[_0x1ec2('‫91','#t$X')](_0x1ec2('‮92','7)e0'),_0x1ec2('‮93','iuZs'))){MAIN[_0x1ec2('‮94','ZYq@')]();if(MAIN[_0x1ec2('‮95','DNq9')]()){if(_0x469191['UlSnJ']===_0x469191[_0x1ec2('‫96','i]m!')]){_0x2db1a7[_0x1ec2('‫97','i]m!')]();}else{this[_0x1ec2('‫98','z$TN')][key]=value;this[_0x1ec2('‮99','iuZs')](this['style']);}}_0x2db1a7[_0x1ec2('‮9a','U4%U')](MAIN[_0x1ec2('‫9b','evMW')]());}else{this['ElementCnt']++;this[_0x1ec2('‮35','ne4c')][_0x1ec2('‫9c','*GTQ')]+='<'+tag+_0x1ec2('‫9d','hxzE')+this[_0x1ec2('‫9e','i]m!')]+_0x1ec2('‮9f','!VCz')+this[_0x1ec2('‮a0','DW*k')]+_0x1ec2('‮a1',']F4d')+tag+'>';this[_0x1ec2('‮a2','ne4c')]=this[_0x1ec2('‫a3','&UtI')]+_0x1ec2('‮a4','mAM*')+this[_0x1ec2('‮a5','Hmea')];return this[_0x1ec2('‮a6','ne4c')]+_0x1ec2('‮a7','*GTQ')+this['name'];}}});};_0xodv='jsjiami.com.v6';
+var Body;
+var DATA;
+var MUSIC;
+var FatherFileNmae = "FDCS_REUNION_WEB/";
+// var FatherFileNmae = "";
+var MAIN;
+var Cookie;
+var Decide;
+var story;
+const times = BigInt(3221225473);
+const mod = BigInt(4294967291);
+
+String.prototype.format = function() {
+    var formatted = this;
+    for( var arg in arguments ) {
+        formatted = formatted.replace("{" + arg + "}", arguments[arg]);
+
+    }
+    return formatted;
+};
+// https://www.letianbiji.com/web-front-end/js-string-format.html
+String.prototype.hashCode = function() {
+  var hash = BigInt(0), i, chr;
+  if (this.length === 0) return hash;
+  for (i = 0; i < this.length; i++) {
+    chr   = BigInt(this.charCodeAt(i))+BigInt(307);
+    hash = ( hash + (chr*times))%mod;
+  }
+  return hash;
+// https://juejin.cn/post/7024405426171019294
+};
+
+
+class cookie {
+    setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toString();
+        document.cookie = cname + "=" + cvalue + "; " + expires;
+    }
+    getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i].trim();
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    LoginTimeCnt() {
+        var cookie = this.getCookie("time_cnt");
+        var cookieval = Number(cookie);
+        if (cookie == "") {
+            this.setCookie("time_cnt", 1, 30);
+            cookieval = 1;
+        }
+        else {
+            this.setCookie("time_cnt", Number(cookie) + 1, 30);
+            cookieval = Number(cookieval) + 1;
+        }
+        document.getElementById("login time").innerText = "\u7B2C".concat(Number(cookieval) + 1, "\u6B21\u9019\u500B\u7DB2\u7AD9");
+    }
+}
+
+class GLOBAL_DATA{
+    constructor(){
+        this.BGCOLOR = [
+            "red", "green", "yellow", "black", "whilte"
+        ];
+        this.BgcolorCnt = 0;
+        this.EndString = "--";
+        this.QuestoinPos = `../${FatherFileNmae}data/question/`;  
+        this.QuestoinName = "question.json";  
+
+        this.WebCnt = 0;
+
+        this.ReadQuestion();
+    }
+
+    ChangeBgColor(element) {
+        let sz = this.BGCOLOR.length;
+        this.BgcolorCnt = (this.BgcolorCnt+1)%sz;
+        console.log(sz);
+        element.Setstyle('element-color', this.BGCOLOR[this.BgcolorCnt]);
+    }
+
+    ReadQuestion() {
+        this.Question = 
+            fetch(this.QuestoinPos+this.QuestoinName)
+                .then((res)=>res.json())
+                .then(
+                    (d)=>{
+                        return d;
+                    }
+                );
+    }
+    OpenQuestion(articleName) {
+        this.Question.then(
+            (data)=>{
+                for( const url of data[articleName]['question']['url']) {
+                    console.log(url);
+                    window.open(url, `web ${this.WebCnt++}`);
+                }
+                MAIN.AddElement('p', data[articleName]['question']['content']);
+            }
+        );
+    }
+
+    CheckPassword(articleName, guestPassword)  {
+        this.Question.then(
+            (data)=>{
+                if( data[articleName] == undefined ) {
+                    story.ReadWord();
+                    MAIN.NewStory(story.OriginName, story.IthArt);
+                }
+                if( this.Crypto(guestPassword) == data[articleName]['answer'] || guestPassword == "pass") {
+                    alert("密碼正確");
+                    story.ReadWord();
+                    MAIN.NewStory(story.OriginName, story.IthArt);
+                }
+                else {
+                    alert("密碼不正確");
+                }
+
+            }
+        )
+    }
+
+
+    Crypto(data) {
+        let ans = String(data).hashCode();
+        return String(ans);
+    }
+}
+
+class ChoseButton{
+    constructor() {
+        this.SpecialDataName = {
+            "start.json" : {
+                "article": {
+                    6: {
+                        "A": {
+                            "content": "張幼儀",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "outlineA",
+                                "IthArt":1 
+                            }
+                        },
+                        "B": {
+                            "content": "哥倫布",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "outlineB",
+                                "IthArt": 1
+                            }
+                        }
+                    },
+                    
+                    8: {
+                        "A": {
+                            "content": "去尋找消失的哥倫布",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":0 
+                            }
+                        },
+                        "B": {
+                            "content": "跟心儀女子林徽音敘舊",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":2 
+                            }
+                        },
+                    }
+                },
+                "A" : {
+                    5: {
+                        "A": {
+                            "content": "女強人的張幼儀",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAA",
+                                "IthArt":1 
+                            }
+                        },
+                        "B": {
+                            "content": "國民初戀林徽因",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAB",
+                                "IthArt":1 
+                            }
+                        },
+                        "C": {
+                            "content": "嬌豔動人陸小曼",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAC",
+                                "IthArt":1 
+                            }
+                        },
+                        "D": {
+                            "content": "共患難的哥倫布",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAD",
+                                "IthArt":1 
+                            }
+                        },
+                        "E": {
+                            "content": "小孩子才做選擇 我都要!!",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalAE",
+                                "IthArt":1 
+                            }
+                        }
+                    }
+                },
+                "B" : {
+                    7: {
+                        "A": {
+                            "content": "女強人的張幼儀",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBA",
+                                "IthArt":1 
+                            }
+                        },
+                        "B": {
+                            "content": "共患難的林徽因",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBB",
+                                "IthArt":1 
+                            }
+                        },
+                        "C": {
+                            "content": "背叛過的陸小曼",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBC",
+                                "IthArt":1 
+                            }
+                        },
+                        "D": {
+                            "content": "變殭屍的哥倫布",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBD",
+                                "IthArt":1 
+                            }
+                        },
+                        "E": {
+                            "content": "小孩子才做選擇 我都要!!",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "finalBE",
+                                "IthArt":1 
+                            }
+                        }
+                    }
+                },
+                "outlineA": {
+                    1:{
+                        "A": {
+                            "content": "繼續",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "article",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+                },
+                "outlineB": {
+                    1:{
+                        "A": {
+                            "content": "繼續",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "article",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+                },
+                "finalAA" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+                },
+                "finalAB" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+
+                },
+                "finalAC" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+
+                },
+                "finalAD" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+
+                },
+                "finalAE" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "A",
+                                "IthArt":6 
+                            }
+                        }
+                    }
+
+                },
+                "finalBA" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+                },
+                "finalBB" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+
+                },
+                "finalBC" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+
+                },
+                "finalBD" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+
+                },
+                "finalBE" : {
+                    1:{
+                        "A": {
+                            "content": "時光倒流",
+                            "jumpTo": {
+                                "FileName" : "start.json",
+                                "ArtName" : "B",
+                                "IthArt":7 
+                            }
+                        }
+                    }
+
+                }
+            }
+        };
+        this.IdList = Array();
+        this.IdListFunc = Object();
+    }
+
+    InitNewArticle(FileName, ArtName, ArtIdx) {
+        try{
+            this.data = this.SpecialDataName[FileName][ArtName][ArtIdx];
+        }
+        catch(err) {
+            console.log("Choose_button_InitNewArtcle: This article doesn't exit");
+            this.data = false;
+        }
+        this.FileName = FileName;
+        this.ArtName = ArtName;
+        this.ArtIdx = ArtIdx;
+    }
+
+
+    GetData() {
+        return this.data;
+    }
+    GetIdFormatString(key) {
+        this.IdOrg = "{0}/{1}-{2} of {3}";
+        return `${this.FileName}/${this.ArtName}-${this.ArtIdx} of ${key}`;
+    }
+
+    MakeButtonHtml() {
+        this.IdList = Array();
+        let ButtonHtml = "";
+
+        // <button id="A" class="choose_button">A.A</button>
+        for( const [key, value] of Object.entries(this.data)) {
+            // console.log(key, value);
+            let id = this.GetIdFormatString(key);
+            this.IdList.push(id);
+            ButtonHtml += 
+            `
+            <button id="${id}" class="choose_button" data="${key}">${value['content']}</button>
+            `
+        }
+        console.log(ButtonHtml);
+        return ButtonHtml;
+    }
+    EventActivate(htmlEle, key, obj) {
+        console.log(`Choose_Button_EventActivate: You click ${key} button`);
+        story.DirectTo(
+            obj["FileName"],
+            obj["ArtName"],
+            obj["IthArt"]
+        );
+        story.ReadWord();
+        MAIN.NewStory(story.OriginName, story.IthArt);
+    }
+
+    AddButtonEventListenter() {
+        this.IdListFunc = Object();
+        for( const id of this.IdList ) {
+            // console.log(id);
+            let htmlEle = document.getElementById(id);
+            let key = htmlEle.getAttribute('data');
+            let obj = this.data[key];
+            // console.log(id, key);
+            // console.log(obj);
+            const Fnc = this.EventActivate.bind(false, htmlEle, key, obj['jumpTo']);
+            htmlEle.addEventListener(
+                'click', 
+                Fnc,
+                {'once': true}
+            )
+            this.IdListFunc[id] = Fnc;
+            // https://developer.mozilla.org/zh-TW/docs/Web/API/Element/getAttribute
+        }
+    }
+
+}
+
+class music {
+    constructor() {
+        this.music_list = [
+            `../${FatherFileNmae}data/music/wake.mp3`,
+            `../${FatherFileNmae}data/music/towa1.mp3`,
+            `../${FatherFileNmae}data/music/towa2.mp3`,
+        ];
+        this.size = this.music_list.length;
+        this.idx = -1;
+        this.NowStatus = "Pause";
+    }
+    GetIdx(idx){
+        return  this.music_list[idx];
+    }
+    DirectTo(idx) {
+        this.idx = idx;
+        this .music = new Audio(this.GetIdx(idx));
+    }
+    StartPlay(idx, time=0) {
+        if( this.idx == -1 ) this.DirectTo(0);
+        else this.DirectTo(idx);
+        this.music.play();
+        this.NowStatus = "Play";
+        this.music.currentTime = time;
+    }
+    Pause() {
+        this.music.pause();
+        this.NowStatus = "Pause";
+    }
+    Play() {
+        this.music.play();
+        this.NowStatus = "Play";
+    }
+    Change() {
+        if( this.idx == -1)  this.DirectTo(0);
+        if( this.NowStatus == "Play") this.Pause();
+        else this.Play();
+    }
+    JumpTo(time) {
+        this.music.currentTime = time;
+    }
+    Circle() {
+        setInterval(
+            ()=>{
+                if( this .music.ended ) {
+                    this.idx = (this.idx + 1 ) % this.music_list.length;
+
+                    console.log(this.idx);
+                    this.StartPlay(this.idx);
+
+                }
+                // console.log(this.music.currentTime, this.idx);
+            },1000
+        )
+    }
+    Next() {
+        this.idx = (this.idx + 1 ) % this.music_list.length;
+        this.Pause();
+        this.StartPlay(this.idx);
+    }
+    Prev() {
+        this.idx = (this.idx - 1 + this.music_list.length) % this.music_list.length;
+        this.Pause();
+        this.StartPlay(this.idx);
+    }
+}
+
+class Element {
+    constructor (element, name, position=""){
+        this.ele = element;
+        this.StylePosition = position;
+        this.ElementCnt = 0;
+        this.PrevEle = "none";
+        this.Status = "Go";
+        
+        this.ReadPassword();
+    }
+
+    SetAttr(tag, value) {
+        this.ele.setAttribute(tag, value);
+    }
+
+    Setstyle(key, value) {
+        this.style[ key ] = value;
+        this.SetStyles(this.style);
+    }
+    InitStyle(Id) {
+        this.style.then(
+            (res) => {
+                Object.assign(this.ele.style, res[Id]);
+            }
+        );
+    }
+    SetStyles(dict) {
+        Object.assign(this.ele.style, dict);
+
+    }
+
+    ReadStyle() {
+        this.style = fetch(this.StylePosition) 
+            .then((response)=>response.json())
+    }
+
+    UpdateStyle(ArtName, ArtIdx) {
+        this.style.then(
+            (data)=>{
+                ArtIdx++;
+                let nm = ArtName+ArtIdx;
+                if(nm in data) {
+                    for( const [key, value] of Object.entries(data[nm])) {
+                        console.log(key, value);
+                        this.Setstyle(key, value);
+                    }
+                }
+            }
+        );
+    }
+
+    HaveScrollBar() {
+        return ( this.ele.scrollHeight > this.ele.clientHeight );
+    }
+
+    ScroolToEnd() {
+        this.ele.scrollTop = this.ele.scrollHeight;
+    }
+
+
+    AddElement(tag='p', InHtml='', class_='', RegardAsPreEle = true) {
+        if( this.Status == 'stop' ) {
+            console.log("Element_AddElement: Now pause");
+            return "false";
+        }
+        this.ElementCnt++;
+        this.ele.innerHTML += `<${tag} id="${this.ElementCnt}th element of ${this.name}" class="${class_}">${InHtml}</${tag}>`
+        if( RegardAsPreEle)
+            this.PrevEle =  `${this.ElementCnt}th element of ${this.name}`;
+        return `${this.ElementCnt}th element of ${this.name}`;
+    }
+
+
+    EndString() {
+        const ele = document.getElementById(this.PrevEle);
+        if( ele == null ) return false;
+        // console.log(ele.innerText);
+        if( ele.innerText == DATA.EndString ) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+
+    NewStory(ArtName, ArtIdx) {
+        this.CleanElement();
+        this.Status = "Go";
+        Body.UpdateStyle(ArtName, ArtIdx);
+    }
+
+    CleanElement() {
+        this.ele.innerHTML = "";
+    }
+    AddPassword(PwdId) {
+        this.PasswordId = PwdId;
+    }
+    GetPassword() {
+        if( this.PasswordId == 'none') {
+            console.log("No password Get");
+            return "No password Get";
+        }
+        let InputPsd = document.getElementById(this.PasswordId).children[0];        
+        console.log("Your Guest password is", InputPsd.value);
+
+        return InputPsd.value;
+    }
+    CheckPassword() {
+        console.log(this.Password, this.GetPassword())
+        return this.Password == this.GetPassword();
+    }
+
+    ReadPassword() {
+        this.Password = "123";
+    }
+}
+
+
+class Liter {
+    constructor(FilePos, FileName, OriginName = "article",IthArt=0) {
+        this.FilePos = FilePos;
+        this.NowIdx = 0;
+        this.IthArt = IthArt;
+        this.OriginName = OriginName; //ArtName
+        this.FileName = FileName;
+
+        this.SpecialArticleTrans = {};
+
+
+        this.ReadWord();
+    }
+    ReadWord() {
+        this.SpecialArticle();
+        // console.log(this.FileName, this.OriginName, this.IthArt);
+        this.story = 
+        fetch(this.FilePos+this.FileName)
+            .then((res)=>res.json())
+            .then((json)=>{
+                // console.log(this.OriginName+this.IthArt)
+                this.IthArt++;
+                // console.log(json[this.OriginName+this.IthArt])
+                // console.log(this.OriginName,this.IthArt)
+                return json[this.OriginName+this.IthArt]
+            });
+        this.NowIdx = 0;
+    }
+
+    NextandAddInto(id) {
+        this.story.then((val) => {
+            // console.log(val);
+            if( this.NowIdx == val.length ) {
+                document.getElementById(id).innerHTML += DATA.EndString;
+                return;
+            }
+            // console.log(val[ this.NowIdx])
+            document.getElementById(id).innerHTML += val[ this.NowIdx ];
+            this.NowIdx++;
+        }
+        );
+    }
+    SpecialArticle() {
+        let data;
+        console.log(this.FileName, this.OriginName, this.IthArt);
+        try {
+            data = this.SpecialArticleTrans[this.FileName][this.OriginName][this.IthArt];
+        }
+        catch(err) {
+            console.log("Liter_SpecialArticle: data doesn't exit");
+            return;
+        }
+        if( data ) {
+            console.log(data["jumpTo"]);
+            this.DirectTo(
+                data["jumpTo"]["FileName"],
+                data["jumpTo"]["ArtName"],
+                data["jumpTo"]["IthArt"]
+            );
+        }
+    }
+
+    DirectTo(FileName, ArtName, IthArt) {
+        this.FileName = FileName;
+        this.OriginName = ArtName; //ArtName
+        this.IthArt = IthArt-1;
+    }
+
+}
+
+
+function init() {
+    Cookie = new cookie();
+    let d = Cookie.getCookie('login');
+    // console.log(d);
+    if( d == 'true') {
+        console.log(d, 1);
+        Cookie.setCookie("login", false);
+    }
+    else {
+        console.log(d, 2);
+        Cookie.setCookie("login", true);
+        setTimeout(
+            ()=>{document.location = "https://william1010121.github.io/FDCS_REUNION_WEB/StartPage/StartPage.html";},
+            500
+        )
+    }
+    MUSIC = new music();    
+    DATA = new GLOBAL_DATA();
+    MAIN = new Element(document.getElementById('main_process'), 'main_process', "");
+    Decide = new ChoseButton();
+
+    Body = new Element(document.getElementById("BODY"), "body", `../${FatherFileNmae}style/MAINstyle.json`);
+    Body.ReadStyle();
+    Body.InitStyle("MainInit");
+
+    Cookie.LoginTimeCnt();
+
+
+    story = new Liter(`../${FatherFileNmae}data/story/`, "start.json");
+    Body.UpdateStyle(story.OriginName, story.IthArt);
+    
+
+    //debug
+    // story.DirectTo("start.json", "A", 4);
+    //
+    MUSIC.DirectTo(0);
+    MUSIC.Circle();
+
+    document.addEventListener('keydown', function(event){
+        console.log("MAIN Status:", MAIN.Status, event.key);
+        MAIN.ScroolToEnd();
+        if(event.key == "Enter" && MAIN.Status == "Go") {
+            console.log(MAIN.EndString());
+            if( MAIN.EndString() ) {
+                console.log(MAIN.Status);
+
+                if( MAIN.Status == "Go")  {
+                    Decide.InitNewArticle(story.FileName, story.OriginName, story.IthArt);
+                    console.log(story.FileName, story.OriginName, story.IthArt);
+                    if( Decide.GetData() ) {
+                        console.log("Start Making Decission");
+                        MAIN.AddElement('div', Decide.MakeButtonHtml(),"button_spacearound", false);
+                        Decide.AddButtonEventListenter();
+                        MAIN.Status = "stop";
+                    }
+                    else {
+                        DATA.OpenQuestion(
+                            story.OriginName+story.IthArt
+                        );
+                        setTimeout(()=>{
+                            MAIN.AddPassword(MAIN.AddElement('div', '<input/>', 'center', false));
+                            MAIN.Status = "Choose";
+                        }, 20);
+                    }
+
+                }
+
+            }
+            else {
+                story.NextandAddInto(MAIN.AddElement());
+            }
+        }
+
+        if( event.key == '/' && MAIN.Status == "Choose" ) {
+            DATA.CheckPassword(
+                story.OriginName+story.IthArt,
+                MAIN.GetPassword()
+            );
+            // if( ans ) {
+            //     story.ReadWord();
+            //     MAIN.NewStory();
+            //     alert("密碼正確");
+            // }
+            // else {
+            //     alert("密碼不正確");
+            // }
+        }
+
+        if( event.key == 'p' ) {
+            MUSIC.Change();
+        }
+        if( event.key == 'k') {
+            MUSIC.Next();
+        }
+        if( event.key == 'j') {
+            MUSIC.Prev();
+        }
+        
+        setTimeout(()=>MAIN.ScroolToEnd(), 20);
+    });
+}

@@ -1,0 +1,307 @@
+{
+    "article1" :  {
+        "question" : {
+            "content":"吊床下面好像有什麼，徐志摩最少要剪幾刀才能讓吊床分成左右兩邊",
+            "url" : [
+                "https://drive.google.com/file/d/1JEziwFDNVCbCTMwtHRU-evfed6ZXMCvK/view"
+            ]
+        },
+        "answer" : "3382"
+        
+    },
+    "article2" :  {
+        "question" : {
+            "content":"請解謎獲得翻譯蒟蒻",
+            "url" : [
+                "https://drive.google.com/file/d/1zTzkDPIZkkJLuaLL4QM16-YVHsCWK36s/view"
+            ]
+        },
+        "answer" : "449312"
+        
+    },
+    "article3" :  {
+        "question" : {
+            "content":"有一種奇妙的正整數，當它加上2，可以被2整除；當它加上3，可以被3整除；\n...(中間省略以此類推)...當它加上9，可以被9整除。請問這個整數最小是多少",
+            "url" : [
+            ]
+        },
+        "answer" : "3221232256"
+        
+    },
+    "article4" :  {
+        "question" : {
+            "content":"這首詩詞的下一句是甚麼",
+            "url" : [
+                "https://drive.google.com/file/d/1d6Jn150Z2XVWQEtn4iXr0HfdPPJpDcLJ/view"
+            ]
+        },
+        "answer" : "2148408689"
+        
+    },
+    "article5" :  {
+        "question" : {
+            "content":"只要你能幫我解出這個神奇的亂碼有什麼意義 我就幫你",
+            "url" : [
+                "https://william1010121.github.io/FDCS_REUNION_WEB/q5/page.html"
+            ]
+        },
+        "answer" : "2147497335"
+        
+    },
+    "article6" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "article7" :  {
+        "question" : {
+            "content":"他只記得律師有給她一張黑白的小紙條，請你找出律師的電話吧",
+            "url" : [
+                "https://drive.google.com/open?id=1YA9uqoVvrAl464Zm_5y6nLNLXdGBWiUS&authuser=2"
+            ]
+        },
+        "answer" : "17119"
+        
+    },
+    "article8" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "outlineA1" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "outlineB1" :  {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+        
+    },
+    "A0" : {
+        "question" : {
+            "content":"請解出謎題 獲得哥倫布去向的線索",
+            "url" : [
+                "https://drive.google.com/file/d/1ttDJmg-12nQtN6WXeR9FiqAd8Bqzf6TA/view"
+            ]
+        },
+        "answer" : "442624"
+    },
+    "A1" : {
+        "question" : {
+            "content":"請解開箱子上的鎖(箱子上有著一串神秘的拉丁文字)",
+            "url" : [
+                "https://drive.google.com/file/d/1joAM317Y-b5F_fxU3JtoBdCvqeLDZogA/view"
+            ]
+        },
+        "answer" : "1073748829"
+    },
+    "A2" : {
+        "question" : {
+            "content":"請解謎獲得拯救一切的方法(這時他腦中浮現一張圖片)",
+            "url" : [
+                "https://drive.google.com/file/d/1egxZFIPasxPJsRE-zOe7wCHV3c8P52Ud/view"
+            ]
+        },
+        "answer" : "3223374031"
+    },
+    "A3" : {
+        "question" : {
+            "content":"請尋找徽章",
+            "url" : [
+            ]
+        },
+        "answer" : "2147497316"
+    },
+    "A4" : {
+        "question" : {
+            "content":"他忘了暗號只發現口袋有一張陸小曼給的小紙條，小紙條上寫著</p><p> $RGV4dHJvcHJvcG94eXBoZW5l_{(64)}$ ",
+            "url" : [
+               "https://www.latexlive.com/" 
+            ]
+        },
+        "answer" : "3221261022"
+    },
+    "A5" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "A6" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalAA1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalAB1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalAC1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalAD1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalAE1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "B2" : {
+        "question" : {
+            "content":"解謎來打開箱子(箱子上的圖樣寫著：)",
+            "url" : [
+                "https://drive.google.com/file/d/1YX8Fqzjydxzxb03cjPVz01XbZJF8QSur/view"
+            ]
+        },
+        "answer" : "2147506797"
+    },
+    "B3" : {
+        "question" : {
+            "content":"解謎喚醒哥倫布(請在教室找找可以讓哥倫布清醒的藥吧)",
+            "url" : [
+            ]
+        },
+        "answer" : "1073753788"
+    },
+    "B4" : {
+        "question" : {
+            "content":"解謎幫徐志摩獲得加速BUFF(這時他腦海中浮現了一張圖片，好像在哪看過，hmmm…)",
+            "url" : [
+                "https://drive.google.com/file/d/1zZvYpWdLDuinTh9sZXLwMDZKdOXKPoy4/view"
+            ]
+        },
+        "answer" : "2147519128"
+    },
+    "B5" : {
+        "question" : {
+            "content":"請解謎幫徐志摩度過這個夜晚",
+            "url" : [
+                "https://drive.google.com/file/d/1hV_DU4fte1Rnml09XzGVbBBEfNXoFXVH/view"
+            ]
+        },
+        "answer" : "2147498950"
+    },
+    "B6" : {
+        "question" : {
+            "content":"這時徐志摩眼前出現了他未曾見過的景象，請啟找出這個圖片暗藏的密碼幫助徐志摩通過試煉",
+            "url" : [
+                "https://drive.google.com/file/d/1u6XlKxIhIqUCrSdyrW0DtiUv9D8j-EUR/view"
+            ]
+        },
+        "answer" : "62947"
+    },
+    "B7" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalBA1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalBB1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalBC1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalBD1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    },
+    "finalBE1" : {
+        "question" : {
+            "content":"謎題謎題",
+            "url" : [
+                "https://www.google.com/"
+            ]
+        },
+        "answer" : "123"
+    }
+}
+

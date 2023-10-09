@@ -72,10 +72,13 @@
 
 - `BGCOLOR`: 背景顏色(測試用)
 - `BGCOLORCNT`: 紀錄背景顏色(測試用)
+- `EndString`: 判斷一個段落結尾的文字
 
 
 #### (function) ChangeBgColor(element)
 - `element`: 想要變換背景顏色的元素
+
+
 
 ### (class) music
 用來撥放音樂的
@@ -106,6 +109,10 @@
 #### constructor(element, name)
 - `element`: 元素
 - `name`: 為這個元素取的名字，主要是在`json`比較好用
+- `StylePositoin`: 存放`Style`所在的位置
+- `ElementCnt`: 目前他總共有幾個子元素
+- `PrevEle`: 上一個加入元素的`Id`
+- `Status`:  目前的狀態
 
 #### SetAttr(tag, value)
 幫元素設值，需要注意的是會直接覆蓋掉原先標籤擁有的值
@@ -124,3 +131,50 @@
 只更改單個`style`的值
 - `key`: ex: `background-color, display`
 - `value`: ex: `gray, flex`
+#### HavScroolBar(): bool
+確認其有沒有滑動條
+
+#### ScroolToEnd()
+把滑動條滾到底部
+
+#### AddElement(tag, InHtml, class, RegardasPreEle)
+增加一個`html`元素
+- `tag`此`html`元素的標籤
+- `InHtml`: 此`html`元素裡面的值
+- `class`: 設置`class`
+- `RegardasPreELe`: 是否要被認定為前一個元素
+
+#### EndString()
+判斷目前是否已警結束了
+
+#### NewStory()
+換到下一個故事
+
+#### CleanElement()
+將之前的操作清空，包括加入的元素
+
+#### CheckPassWord()
+確認密碼是否正確
+
+#### ReadPassword()
+讀取`Password`
+
+
+### Liter
+主要用來存放文章的地方
+
+#### construct(FilePos, FileName, IthArt)
+- `FilePos`: 文章的位置
+- `FileName`: 文章的檔案名
+- `OriginName`: 文章的標題
+- `IthArt`: 文章的名稱為 `OriginName+IthArt`
+- `NowIdx`: 目前文章到第幾行
+
+#### ReadWord()
+讀取文章
+
+#### NextandAddInto(id)
+在`id`裡面將當前的句子放入，然後蝶帶下一篇文章
+
+
+

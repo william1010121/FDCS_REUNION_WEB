@@ -1,0 +1,14 @@
+{
+    "MainInit" : {
+        "background-color": "antiquewhite",
+        "background-image": "url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png')",
+        "background-size": "1000px 1000px",
+        "background-repeat": "no-repeat",
+        "background-position": "center",
+        "background-attachment": "fixed"
+    },
+    "article1" : {
+        "background-image": "url('https://william1010121.github.io/FDCS_REUNION_WEB/data/pikachu_background.png')"
+    }
+}
+
